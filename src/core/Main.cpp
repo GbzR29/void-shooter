@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "Player.h"
+#include "Stars.h"
 #include <iostream>
 #include <cmath>
 
@@ -9,6 +10,7 @@ int main()
 
     //Entities
     Player player;
+    Stars stars;
 
     //Delta time
     sf::Clock clock;
@@ -55,6 +57,9 @@ int main()
                 window.close();
         }
         window.clear();
+
+        stars.draw_stars(window);
+        stars.update_stars(delta_time);
 
         window.draw(rect);
 

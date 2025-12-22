@@ -14,7 +14,9 @@ Player::Player() : sprite(tex){
 }
 
 void Player::update(float dt) {
+
     input(dt);
+    clampToScreen();    
 }
 
 void Player::draw(sf::RenderWindow& window) const {
@@ -42,4 +44,24 @@ void Player::input(float dt) {
     {
         sprite.move({ (300 * dt), 0 });
     }
+}
+
+
+void Player::clampToScreen() {
+    sf::Vector2f pos = sprite.getPosition();
+    sf::FloatRect bounds = sprite.getGlobalBounds();
+
+    if (pos.x < 0)
+        pos.x = 0;
+
+    if (pos.y < 0)
+        pos.y = 0;
+
+    if (pos.x + bounds.size.x > 800)
+        pos.x = 800 - bounds.size.x;
+
+    if (pos.y + bounds.size.y > 600)
+        pos.y = 600 - bounds.size.y;
+
+    sprite.setPosition(pos);
 }
