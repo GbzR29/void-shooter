@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build SFML 3 (MinGW)",
+            "type": "shell",
+            "command": "C:/mingw64/bin/g++.exe",
+            "args": [
+                "-std=c++17",
+                "-g",
+
+                //paths
+                "-I${workspaceFolder}/include",
+                "-L${workspaceFolder}/lib",
+
+                //fonts
+                "${workspaceFolder}/src/core/Main.cpp",
+                "${workspaceFolder}/src/core/Player.cpp",                
+
+                //libraries
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-lsfml-audio",
+                "-lsfml-network",
+
+                //dependencies
+                "-lopengl32",
+                "-lwinmm",
+                "-lgdi32",
+                "-lfreetype",
+                "-lws2_32",
+
+                "-o",
+                "${workspaceFolder}/build/main.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
