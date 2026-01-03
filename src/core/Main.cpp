@@ -1,6 +1,7 @@
 #include <SFML/Graphics.hpp>
-#include "Player.h"
+#include "../headers/Player.h"
 #include "Stars.h"
+#include "../headers/UI.h"
 #include <iostream>
 #include <cmath>
 
@@ -13,6 +14,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "");
     window.setFramerateLimit(120);
     window.setVerticalSyncEnabled(true);
+    window.setKeyRepeatEnabled(false);
 
     // window
     sf::Clock clock;
@@ -22,7 +24,9 @@ int main()
 
     //Entities
     Player player;
-    Stars stars;        
+    Stars stars;      
+    
+    UI ui;
   
     // earth texture =======================================================================
     sf::Texture earth_texture;
@@ -93,7 +97,9 @@ int main()
         purple_enemy_sprite.setPosition({x, enemy_y_position});         
         
         while (const std::optional event = window.pollEvent())
-        {
+        {   
+            player.handleEvent(*event);
+
             if (event->is<sf::Event::Closed>())
                 window.close();
         }
@@ -108,7 +114,9 @@ int main()
         window.draw(purple_enemy_sprite);
 
         player.update(delta_time);        
-        player.draw(window);        
+        player.draw(window);
+        
+        ui.draw(window);
 
         window.display();
     }

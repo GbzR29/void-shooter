@@ -1,4 +1,4 @@
-#include "Player.h"
+#include "../headers/Player.h"
 #include "../assets/textures/player_texture.h"
 #include "../assets/sprites/thruster/thruster_spritesheet.h"
 #include <iostream>
@@ -53,7 +53,24 @@ void Player::animation(float dt){
     thruster_sprite.setTextureRect(sf::IntRect({thruster_actual_frame * 8, 0}, {8, 8}));
 }
 
-void Player::input(float dt) {
+void Player::shoot(float dt){
+
+}
+
+
+void Player::handleEvent(const sf::Event& event)
+{
+    if (const auto* keyPressed = event.getIf<sf::Event::KeyPressed>())
+    {
+        if (keyPressed->code == sf::Keyboard::Key::Space)
+        {
+            std::cout << "Atirou!" << std::endl;
+        }
+    }
+}
+
+void Player::input(float dt) {       
+
 
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
     {

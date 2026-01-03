@@ -12,6 +12,9 @@ public:
     void input(float dt);
     void clampToScreen();
     void animation(float dt);
+    void shoot(float dt);
+
+    void handleEvent(const sf::Event& event);
 
 private:
     sf::Vector2f velocity{ 0.f, 0.f };

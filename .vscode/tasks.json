@@ -15,6 +15,7 @@
                 
                 //"${workspaceFolder}/src/core/Enemy.cpp",                
                 "${workspaceFolder}/src/core/Player.cpp",
+                "${workspaceFolder}/src/core/UI.cpp",
                 
                 "-lsfml-graphics",
                 "-lsfml-window",
