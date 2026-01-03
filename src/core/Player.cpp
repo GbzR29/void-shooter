@@ -1,12 +1,12 @@
 #include "Player.h"
+#include "../assets/textures/player_texture.h"
 #include <iostream>
 
 Player::Player() : sprite(tex){
 
-    if (!tex.loadFromFile("assets/textures/player.png")) {
+    if (!tex.loadFromMemory(player_png, player_png_len)) {
         std::cout << "Failed to load texture!\n";
     }
-
     sprite = sf::Sprite(tex);
 
     sprite.setScale({3, 3});
@@ -21,6 +21,10 @@ void Player::update(float dt) {
 
 void Player::draw(sf::RenderWindow& window) const {
     window.draw(sprite);
+}
+
+void Player::animation(){
+
 }
 
 void Player::input(float dt) {
@@ -45,7 +49,6 @@ void Player::input(float dt) {
         sprite.move({ (300 * dt), 0 });
     }
 }
-
 
 void Player::clampToScreen() {
     sf::Vector2f pos = sprite.getPosition();
