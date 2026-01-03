@@ -32,11 +32,11 @@ int main()
     }
     sf::Sprite earth_sprite(earth_texture);    
 
-    int total_frames = 50;
-    int actual_frame = 0;
-    int counter = 0;
+    int earth_total_frames = 50;
+    int earth_actual_frame = 0;
+    int earth_frame_counter = 0;
 
-    earth_sprite.setTextureRect(sf::IntRect({actual_frame, 0}, {100, 100}));
+    earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame, 0}, {100, 100}));
     earth_sprite.setScale({3.0f, 3.0f});
     earth_sprite.setPosition({100, 100});
     earth_sprite.setColor(sf::Color(80, 80, 80, 255));
@@ -60,7 +60,7 @@ int main()
     purple_enemy_sprite.setScale({3.f, 3.f});
     purple_enemy_sprite.setPosition({ 400 - 25.f, 0.f });
 
-    float earth_anim_time = 0;
+    float enemy_anim_time = 0;
 
     while (window.isOpen())
     {               
@@ -76,23 +76,19 @@ int main()
         
         //earth animation       
 
-
-
-        counter == 20 ? actual_frame = (actual_frame + 100) % 10000, counter = 0 : counter++;          
-        earth_sprite.setTextureRect(sf::IntRect({actual_frame, 0}, {100, 100}));
-
+        earth_frame_counter == 20 ? earth_actual_frame = (earth_actual_frame + 100) % 10000, earth_frame_counter = 0 : earth_frame_counter++;          
+        earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame, 0}, {100, 100}));
 
         //enemy animation
-        earth_anim_time += delta_time;       
-        float x = xPos + std::sin(earth_anim_time * 2.f) * amplitude;
-        float y = yPos + std::cos(earth_anim_time * 2.f) * amplitude;     
+        enemy_anim_time += delta_time;       
+        float x = xPos + std::sin(enemy_anim_time * 2.f) * amplitude;
+        float y = yPos + std::cos(enemy_anim_time * 2.f) * amplitude;     
         
         //setting bounds for enemy translation in Y
         yPos <= 600 ? yPos += 100 * delta_time : yPos = -50;
 
         purple_enemy_sprite.setPosition({x, yPos});         
         
-
         while (const std::optional event = window.pollEvent())
         {
             if (event->is<sf::Event::Closed>())
