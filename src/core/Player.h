@@ -11,16 +11,23 @@ public:
     void draw(sf::RenderWindow& window) const override;
     void input(float dt);
     void clampToScreen();
-    void animation();
+    void animation(float dt);
 
 private:
     sf::Vector2f velocity{ 0.f, 0.f };
 
-    sf::Texture throwers;
-    //sf::Sprite throwers;
+    sf::Texture thruster_texture;
+    sf::Sprite thruster_sprite;
 
-    sf::Texture tex;
-    sf::Sprite sprite;
+    float thruster_x_position;
+    float thruster_y_position;
+
+    const int thruster_total_frames = 4;
+    float thruster_anim_time = 0;
+    int thruster_actual_frame = 0;
+
+    sf::Texture player_texture;
+    sf::Sprite player_sprite;
     float speed = 200.f;
     int hp = 10;
 };
