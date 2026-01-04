@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
-#include "../headers/Player.h"
-#include "Stars.h"
-#include "../headers/UI.h"
+#include "entities/player/player.h"
+#include "environment/stars.h"
+#include "ui/ui.h"
 #include <iostream>
 #include <cmath>
 

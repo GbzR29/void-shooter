@@ -1,6 +1,6 @@
-#include "../headers/UI.h"
-#include "../assets/textures/healthbar_spritesheet.h"
-#include "../assets/textures/energybar_spritesheet.h"
+#include "ui.h"
+#include "../../assets/textures/healthbar_spritesheet.h"
+#include "../../assets/textures/energybar_spritesheet.h"
 #include <iostream>
 
 UI::UI() : healthbar_sprite(healthbar_texture) {

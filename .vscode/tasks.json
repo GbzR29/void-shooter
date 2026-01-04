@@ -2,41 +2,52 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
-            "command": "C:/mingw64/bin/g++",
+            "label": "Build SFML",
+            "type": "shell",
+            "command": "g++",
             "args": [
-                "-g",
                 "-std=c++17",
-                "-I${workspaceFolder}/include",
-                "-L${workspaceFolder}/lib",
 
-                "${workspaceFolder}/src/core/Main.cpp",
-                
-                //"${workspaceFolder}/src/core/Enemy.cpp",                
-                "${workspaceFolder}/src/core/Player.cpp",
-                "${workspaceFolder}/src/core/UI.cpp",
-                
+                //using Git Bash as the default profile
+                "-g",                
+                //systems
+                "${workspaceFolder}/src/core/*.cpp",
+                //entities
+                "${workspaceFolder}/src/core/entities/enemy/*.cpp", 
+                "${workspaceFolder}/src/core/entities/player/*.cpp", 
+                //environment
+                //"${workspaceFolder}/src/core/environment/*.cpp",                   
+                //sounds
+                //"${workspaceFolder}/src/core/sound/*.cpp",                 
+                //ui
+                "${workspaceFolder}/src/core/ui/*.cpp",     
+                "-o",
+                "${workspaceFolder}/build/void-shooter.exe",
+
+                //default path
+                "-I", "${workspaceFolder}/include",
+                "-L", "${workspaceFolder}/lib",
+
+                //sfml libraries
                 "-lsfml-graphics",
                 "-lsfml-window",
                 "-lsfml-system",
                 "-lsfml-audio",
                 "-lsfml-network",
 
+                //sfml dependencies
                 "-lopengl32",
                 "-lwinmm",
                 "-lgdi32",
                 "-lfreetype",
                 "-lws2_32",
-               
-                "-o",
-                "${workspaceFolder}/build/main.exe"
             ],
-            "options": {
-                "cwd": "${workspaceFolder}"
+            "group": {
+                "kind": "build",
+                "isDefault": true
             },
             "problemMatcher": ["$gcc"],
-            "group": { "kind": "build", "isDefault": true }
+            "detail": "Compiling C++ with SFML"
         }
     ]
 }

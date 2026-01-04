@@ -1,6 +1,6 @@
-#include "../headers/Player.h"
-#include "../assets/textures/player_texture.h"
-#include "../assets/sprites/thruster/thruster_spritesheet.h"
+#include "player.h"
+#include "../../../assets/textures/player_texture.h"
+#include "../../../assets/sprites/thruster/thruster_spritesheet.h"
 #include <iostream>
 
 Player::Player() : player_sprite(player_texture), thruster_sprite(thruster_texture){
@@ -56,7 +56,6 @@ void Player::animation(float dt){
 void Player::shoot(float dt){
 
 }
-
 
 void Player::handleEvent(const sf::Event& event)
 {
