@@ -1,61 +1,9 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Build Project",
-            "type": "shell",
-            "command": "g++",
-            "args": [
-                "-std=c++17",
-
-                //using Git Bash as the default profile
-                "-g",                
-                //systems
-                "${workspaceFolder}/src/core/*.cpp",
-                //entities
-                "${workspaceFolder}/src/core/entities/enemy/*.cpp", 
-                "${workspaceFolder}/src/core/entities/player/*.cpp", 
-                //environment
-                //"${workspaceFolder}/src/core/environment/*.cpp",                   
-                //sounds
-                //"${workspaceFolder}/src/core/sound/*.cpp",                 
-                //ui
-                "${workspaceFolder}/src/core/ui/*.cpp",     
-                "-o",
-                "${workspaceFolder}/build/void-shooter.exe",
-
-                //default path
-                "-I", "${workspaceFolder}/include",
-                "-L", "${workspaceFolder}/lib",
-
-                //sfml libraries
-                "-lsfml-graphics",
-                "-lsfml-window",
-                "-lsfml-system",
-                "-lsfml-audio",
-                "-lsfml-network",
-
-                //sfml dependencies
-                "-lopengl32",
-                "-lwinmm",
-                "-lgdi32",
-                "-lfreetype",
-                "-lws2_32",
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": ["$gcc"],
-            "detail": "Compiling the project in C++ and SFML"
-        },
-
-        {
-            "label": "Run Game",
-            "type": "shell",
-            "command": "./build/void-shooter.exe",
-            "dependsOn": "Build SFML",
-            "problemMatcher": []
-        }
-    ]
+  "label": "Run Debug",
+  "type": "shell",
+  "command": "${workspaceFolder}\\build\\debug\\void-shooter.exe",
+  "options": {
+    "cwd": "${workspaceFolder}\\build\\debug"
+  },
+  "dependsOn": "Build Debug"
 }

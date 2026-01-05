@@ -284,8 +284,8 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Sleep.hpp \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\entities/player/player.h \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/entity.h \
- C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\environment/stars.h \
- C:/mingw64/include/c++/14.2.0/random C:/mingw64/include/c++/14.2.0/cmath \
+ C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\entities/enemy/enemy.h \
+ C:/mingw64/include/c++/14.2.0/cmath \
  C:/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/mingw64/include/c++/14.2.0/bits/specfun.h \
  C:/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
@@ -300,6 +300,8 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
  C:/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  C:/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+ C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\environment/stars.h \
+ C:/mingw64/include/c++/14.2.0/random \
  C:/mingw64/include/c++/14.2.0/bits/random.h \
  C:/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
  C:/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h \
@@ -310,5 +312,4 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\ui/ui.h \
  C:/mingw64/include/c++/14.2.0/iostream \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/earth_texture_spritesheet.h \
- C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/earth_spritesheet.h \
- C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/purp_enemy_texture.h
+ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/earth_spritesheet.h

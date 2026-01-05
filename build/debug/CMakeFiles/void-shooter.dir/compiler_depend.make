@@ -80,6 +80,7 @@ CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj: C:/Users/gabr
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Window/WindowBase.inl \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Window/WindowEnums.hpp \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Window/WindowHandle.hpp \
+  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/purp_enemy_texture.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/entity.h \
   C:/mingw64/include/c++/14.2.0/array \
   C:/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
@@ -147,6 +148,7 @@ CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj: C:/Users/gabr
   C:/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
   C:/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/14.2.0/bits/specfun.h \
   C:/mingw64/include/c++/14.2.0/bits/sstream.tcc \
   C:/mingw64/include/c++/14.2.0/bits/std_abs.h \
   C:/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
@@ -179,6 +181,7 @@ CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj: C:/Users/gabr
   C:/mingw64/include/c++/14.2.0/cerrno \
   C:/mingw64/include/c++/14.2.0/chrono \
   C:/mingw64/include/c++/14.2.0/clocale \
+  C:/mingw64/include/c++/14.2.0/cmath \
   C:/mingw64/include/c++/14.2.0/codecvt \
   C:/mingw64/include/c++/14.2.0/compare \
   C:/mingw64/include/c++/14.2.0/concepts \
@@ -204,6 +207,7 @@ CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj: C:/Users/gabr
   C:/mingw64/include/c++/14.2.0/iomanip \
   C:/mingw64/include/c++/14.2.0/ios \
   C:/mingw64/include/c++/14.2.0/iosfwd \
+  C:/mingw64/include/c++/14.2.0/iostream \
   C:/mingw64/include/c++/14.2.0/istream \
   C:/mingw64/include/c++/14.2.0/iterator \
   C:/mingw64/include/c++/14.2.0/limits \
@@ -223,6 +227,18 @@ CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj: C:/Users/gabr
   C:/mingw64/include/c++/14.2.0/string \
   C:/mingw64/include/c++/14.2.0/string_view \
   C:/mingw64/include/c++/14.2.0/system_error \
+  C:/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+  C:/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/14.2.0/tuple \
   C:/mingw64/include/c++/14.2.0/type_traits \
   C:/mingw64/include/c++/14.2.0/typeinfo \
@@ -265,6 +281,7 @@ CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj: C:/Users/gabr
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -665,7 +682,6 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: C:/Users/gabri/Documents/MEGA
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Window/WindowHandle.hpp \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/earth_spritesheet.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/earth_texture_spritesheet.h \
-  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/purp_enemy_texture.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/entity.h \
   C:/mingw64/include/c++/14.2.0/array \
   C:/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
@@ -898,6 +914,7 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: C:/Users/gabri/Documents/MEGA
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/enemy/enemy.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/player/player.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/stars.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/ui/ui.h
@@ -1296,9 +1313,9 @@ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external
 
 C:/mingw64/include/c++/14.2.0/numeric:
 
-C:/mingw64/include/c++/14.2.0/cmath:
-
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
+C:/mingw64/include/c++/14.2.0/cmath:
 
 C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Graphics/Sprite.hpp:
 
@@ -1572,6 +1589,8 @@ C:/mingw64/include/c++/14.2.0/bits/shared_ptr.h:
 
 C:/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h:
 
+C:/mingw64/include/c++/14.2.0/bits/specfun.h:
+
 C:/mingw64/include/c++/14.2.0/bits/std_abs.h:
 
 C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/stars.cpp:
@@ -1704,6 +1723,24 @@ C:/mingw64/include/c++/14.2.0/streambuf:
 
 C:/mingw64/include/c++/14.2.0/system_error:
 
+C:/mingw64/include/c++/14.2.0/tr1/beta_function.tcc:
+
+C:/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc:
+
+C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
+
+C:/mingw64/include/c++/14.2.0/tr1/gamma.tcc:
+
+C:/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc:
+
+C:/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
+
+C:/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc:
+
+C:/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
+
+C:/mingw64/include/c++/14.2.0/tr1/special_function_util.h:
+
 C:/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h:
 
 C:/mingw64/include/c++/14.2.0/tuple:
@@ -1764,6 +1801,8 @@ C:/mingw64/x86_64-w64-mingw32/include/limits.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/locale.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/math.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/process.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/pthread.h:
@@ -1785,10 +1824,6 @@ C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 C:/mingw64/x86_64-w64-mingw32/include/signal.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdint.h:
-
-C:/mingw64/include/c++/14.2.0/tr1/gamma.tcc:
-
-C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
 
@@ -1814,8 +1849,6 @@ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/asse
 
 C:/mingw64/include/c++/14.2.0/bits/random.h:
 
-C:/mingw64/include/c++/14.2.0/bits/specfun.h:
-
 C:/mingw64/include/c++/14.2.0/bits/stl_numeric.h:
 
 C:/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h:
@@ -1824,23 +1857,7 @@ C:/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h:
 
 C:/mingw64/include/c++/14.2.0/random:
 
-C:/mingw64/include/c++/14.2.0/tr1/beta_function.tcc:
-
-C:/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc:
-
-C:/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc:
-
-C:/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
-
-C:/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc:
-
-C:/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
-
-C:/mingw64/include/c++/14.2.0/tr1/special_function_util.h:
-
 C:/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/math.h:
 
 C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/ui/ui.cpp:
 

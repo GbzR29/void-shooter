@@ -1,13 +1,17 @@
 #include <SFML/Graphics.hpp>
+
 #include "entities/player/player.h"
+#include "entities/enemy/enemy.h"
 #include "environment/stars.h"
+
 #include "ui/ui.h"
+
 #include <iostream>
-#include <cmath>
+
 
 #include "../assets/textures/earth_texture_spritesheet.h"
 #include "../assets/textures/earth_spritesheet.h"
-#include "../assets/textures/purp_enemy_texture.h"
+
 
 int main()
 {
@@ -24,6 +28,7 @@ int main()
 
     //Entities
     Player player;
+    Enemy enemy;
     Stars stars;      
     
     UI ui;
@@ -39,31 +44,13 @@ int main()
     float earth_anim_time = 0.f;    
     const int earth_total_frames = 163;
     int earth_actual_frame = 0;
-    
+
 
     earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame, 0}, {100, 100}));
     earth_sprite.setScale({10.0f, 10.0f});
     earth_sprite.setPosition({-100, 400});
     earth_sprite.setColor(sf::Color(100, 100, 100, 255));
-
-    // =================================================================================================    
-    
-    //enemy texture & attributes =======================================================================
-    sf::Texture enemyTexture;
-    if (!enemyTexture.loadFromMemory(purple_enemy_png, purple_enemy_png_len))
-    {
-        std::cout << "Failed to load purple_enemy texture" << std::endl;
-    } 
-    sf::Sprite purple_enemy_sprite(enemyTexture);   
-
-    float enemy_x_position = 400.f - 25.f;
-    float enemy_y_position = 10;
-    float amplitude = 150.0f;   
-
-    float enemy_anim_time = 0;       
-
-    purple_enemy_sprite.setScale({3.f, 3.f});
-    purple_enemy_sprite.setPosition({ enemy_x_position, enemy_y_position });
+   
 
     while (window.isOpen())
     {               
@@ -85,16 +72,7 @@ int main()
         earth_actual_frame = static_cast<int>(earth_anim_time * earth_fps) % earth_total_frames;
 
         earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame * 100, 0}, {100, 100}));
-
-        //enemy animation
-        enemy_anim_time += delta_time;       
-        float x = enemy_x_position + std::sin(enemy_anim_time * 2.f) * amplitude;
-        float y = enemy_y_position + std::cos(enemy_anim_time * 2.f) * amplitude;     
-        
-        //setting bounds for enemy translation in Y
-        enemy_y_position <= 600 ? enemy_y_position += 100 * delta_time : enemy_y_position = -50;
-
-        purple_enemy_sprite.setPosition({x, enemy_y_position});         
+              
         
         while (const std::optional event = window.pollEvent())
         {   
@@ -110,8 +88,8 @@ int main()
 
         window.draw(earth_sprite);
 
-
-        window.draw(purple_enemy_sprite);
+        enemy.update(delta_time);
+        enemy.draw(window);
 
         player.update(delta_time);        
         player.draw(window);
