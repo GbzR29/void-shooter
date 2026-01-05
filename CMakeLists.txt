@@ -1,59 +1,46 @@
 cmake_minimum_required(VERSION 4.2.1)
 
-project(void_shooter
-    VERSION 0.1.0
-    LANGUAGES CXX
-)
+project(void_shooter LANGUAGES CXX)
 
-# --------------------------------------------------
-# C++ standard
-# --------------------------------------------------
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
 
-# --------------------------------------------------
-# Default build type (SAFE for MinGW + SFML)
-# --------------------------------------------------
 if(NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
+    set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type" FORCE)
 endif()
 
 # --------------------------------------------------
-# SFML (local - MinGW)
+# SFML selection
 # --------------------------------------------------
-set(SFML_DIR "${CMAKE_SOURCE_DIR}/lib/cmake/SFML")
+if(CMAKE_BUILD_TYPE STREQUAL "Release")
+    set(SFML_ROOT "${CMAKE_SOURCE_DIR}/external/sfml-release")
+    set(SFML_STATIC_LIBRARIES ON)
+    add_compile_definitions(SFML_STATIC)
+else()
+    set(SFML_ROOT "${CMAKE_SOURCE_DIR}/external/sfml-debug")
+    set(SFML_STATIC_LIBRARIES OFF)
+endif()
 
+set(SFML_DIR "${SFML_ROOT}/lib/cmake/SFML")
+
+# --------------------------------------------------
+# Find SFML
+# --------------------------------------------------
 find_package(SFML 3 REQUIRED COMPONENTS
-    Graphics
-    Window
-    System
-    Audio
-    Network
-)
-
-# --------------------------------------------------
-# Source files
-# --------------------------------------------------
-file(GLOB_RECURSE PROJECT_SOURCES
-    src/core/*.cpp
+    Graphics Window System Audio Network
 )
 
 # --------------------------------------------------
 # Executable
 # --------------------------------------------------
-add_executable(void-shooter ${PROJECT_SOURCES})
+file(GLOB_RECURSE SRC_FILES src/core/*.cpp)
 
-# --------------------------------------------------
-# Includes
-# --------------------------------------------------
+add_executable(void-shooter ${SRC_FILES})
+
 target_include_directories(void-shooter PRIVATE
     ${CMAKE_SOURCE_DIR}/include
 )
 
-# --------------------------------------------------
-# Link libraries (MODERN CMAKE)
-# --------------------------------------------------
 target_link_libraries(void-shooter PRIVATE
     SFML::Graphics
     SFML::Window
@@ -63,24 +50,10 @@ target_link_libraries(void-shooter PRIVATE
 )
 
 # --------------------------------------------------
-# Windows / MinGW system libs
+# Copy DLLs (Debug only)
 # --------------------------------------------------
-if(WIN32)
-    target_link_libraries(void-shooter PRIVATE
-        opengl32
-        winmm
-        gdi32
-        ws2_32
-    )
-endif()
-
-# --------------------------------------------------
-# Copy SFML DLLs next to exe
-# --------------------------------------------------
-if(WIN32)
-    file(GLOB SFML_DLLS
-        "${CMAKE_SOURCE_DIR}/bin/*.dll"
-    )
+if(WIN32 AND NOT SFML_STATIC_LIBRARIES)
+    file(GLOB SFML_DLLS "${SFML_ROOT}/bin/*.dll")
 
     add_custom_command(TARGET void-shooter POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
@@ -88,4 +61,3 @@ if(WIN32)
         $<TARGET_FILE_DIR:void-shooter>
     )
 endif()
-

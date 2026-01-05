@@ -1,3 +1,0 @@
-C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/CMakeFiles/void-shooter.dir
-C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/CMakeFiles/edit_cache.dir
-C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/CMakeFiles/rebuild_cache.dir
