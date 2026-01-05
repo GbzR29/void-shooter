@@ -2795,8 +2795,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-pynhss"
-      binary: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-pynhss"
+      source: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-1uhttg"
+      binary: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-1uhttg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2806,13 +2806,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-pynhss'
+        Change Dir: 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-1uhttg'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_76025/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_76025.dir\\build.make CMakeFiles/cmTC_76025.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-pynhss'
-        Building CXX object CMakeFiles/cmTC_76025.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_21b24/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_21b24.dir\\build.make CMakeFiles/cmTC_21b24.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-1uhttg'
+        Building CXX object CMakeFiles/cmTC_21b24.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\c++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -2821,8 +2821,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_76025.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_76025.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\gabri\\AppData\\Local\\Temp\\cc7JQMN5.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_21b24.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_21b24.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\gabri\\AppData\\Local\\Temp\\cc2iqU73.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2847,14 +2847,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_76025.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\gabri\\AppData\\Local\\Temp\\cc7JQMN5.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_21b24.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\gabri\\AppData\\Local\\Temp\\cc2iqU73.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_76025.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_76025.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_21b24.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_21b24.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -2866,16 +2866,16 @@ events:
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76025.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_76025.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccZzy99j.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_76025.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_76025.dir/objects.a --no-whole-archive --out-implib libcmTC_76025.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21b24.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21b24.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccivDRef.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_21b24.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_21b24.dir/objects.a --no-whole-archive --out-implib libcmTC_21b24.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccZzy99j.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_76025.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_76025.dir/objects.a --no-whole-archive --out-implib libcmTC_76025.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccivDRef.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_21b24.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_21b24.dir/objects.a --no-whole-archive --out-implib libcmTC_21b24.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76025.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_76025.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_76025.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_76025.dir/objects.a @CMakeFiles\\cmTC_76025.dir\\objects1.rsp
-        C:\\mingw64\\bin\\c++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_76025.dir/objects.a -Wl,--no-whole-archive -o cmTC_76025.exe -Wl,--out-implib,libcmTC_76025.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-pynhss'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21b24.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21b24.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_21b24.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_21b24.dir/objects.a @CMakeFiles\\cmTC_21b24.dir\\objects1.rsp
+        C:\\mingw64\\bin\\c++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_21b24.dir/objects.a -Wl,--no-whole-archive -o cmTC_21b24.exe -Wl,--out-implib,libcmTC_21b24.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-1uhttg'
         
       exitCode: 0
   -
@@ -2916,13 +2916,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-pynhss']
+        ignore line: [Change Dir: 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-1uhttg']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_76025/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_76025.dir\\build.make CMakeFiles/cmTC_76025.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-pynhss']
-        ignore line: [Building CXX object CMakeFiles/cmTC_76025.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_21b24/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_21b24.dir\\build.make CMakeFiles/cmTC_21b24.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/CMakeScratch/TryCompile-1uhttg']
+        ignore line: [Building CXX object CMakeFiles/cmTC_21b24.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\c++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -2931,8 +2931,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_76025.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_76025.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\gabri\\AppData\\Local\\Temp\\cc7JQMN5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_21b24.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_21b24.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\gabri\\AppData\\Local\\Temp\\cc2iqU73.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2957,8 +2957,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_76025.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\gabri\\AppData\\Local\\Temp\\cc7JQMN5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_21b24.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\gabri\\AppData\\Local\\Temp\\cc2iqU73.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r2) 2.43.1]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -2969,9 +2969,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_76025.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_76025.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_76025.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_21b24.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_21b24.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_21b24.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -2990,13 +2990,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76025.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_76025.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccZzy99j.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_76025.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_76025.dir/objects.a --no-whole-archive --out-implib libcmTC_76025.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21b24.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21b24.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccivDRef.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_21b24.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_21b24.dir/objects.a --no-whole-archive --out-implib libcmTC_21b24.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccZzy99j.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\gabri\\AppData\\Local\\Temp\\ccivDRef.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -3018,7 +3018,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_76025.exe] ==> ignore
+          arg [cmTC_21b24.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -3029,10 +3029,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_76025.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_21b24.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_76025.dll.a] ==> ignore
+          arg [libcmTC_21b24.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3107,8 +3107,8 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "lib/cmake/SFML/SFMLConfig.cmake:93 (find_path)"
-      - "CMakeLists.txt:20 (find_package)"
+      - "external/sfml-debug/lib/cmake/SFML/SFMLConfig.cmake:93 (find_path)"
+      - "CMakeLists.txt:31 (find_package)"
     mode: "path"
     variable: "SFML_DOC_DIR"
     description: "Path to a file."
@@ -3123,6 +3123,12 @@ events:
     names:
       - "SFML.tag"
     candidate_directories:
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/include/SFML/doc/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/include/share/doc/SFML/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/include/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFML/doc/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/share/doc/SFML/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/"
       - "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML/doc/"
       - "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/doc/SFML/"
       - "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -3240,9 +3246,9 @@ events:
       - "C:/Program Files (x86)/void_shooter/SFML/doc/"
       - "C:/Program Files (x86)/void_shooter/share/doc/SFML/"
       - "C:/Program Files (x86)/void_shooter/"
-      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/SFML/doc/"
-      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/share/doc/SFML/"
-      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFML/doc/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/share/doc/SFML/"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/"
       - "C:/Users/gabri/Library/Frameworks/SFML/doc/"
       - "C:/Users/gabri/Library/Frameworks/share/doc/SFML/"
       - "C:/Users/gabri/Library/Frameworks/"
@@ -3268,6 +3274,12 @@ events:
       - "/opt/share/doc/SFML/"
       - "/opt/"
     searched_directories:
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/include/SFML/doc/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/include/share/doc/SFML/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/include/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFML/doc/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/share/doc/SFML/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFML.tag"
       - "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML/doc/SFML.tag"
       - "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/doc/SFML/SFML.tag"
       - "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML.tag"
@@ -3385,9 +3397,9 @@ events:
       - "C:/Program Files (x86)/void_shooter/SFML/doc/SFML.tag"
       - "C:/Program Files (x86)/void_shooter/share/doc/SFML/SFML.tag"
       - "C:/Program Files (x86)/void_shooter/SFML.tag"
-      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/SFML/doc/SFML.tag"
-      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/share/doc/SFML/SFML.tag"
-      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFML/doc/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/share/doc/SFML/SFML.tag"
+      - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFML.tag"
       - "C:/Users/gabri/Library/Frameworks/SFML/doc/SFML.tag"
       - "C:/Users/gabri/Library/Frameworks/share/doc/SFML/SFML.tag"
       - "C:/Users/gabri/Library/Frameworks/SFML.tag"
@@ -3414,1024 +3426,10 @@ events:
       - "/opt/SFML.tag"
     found: false
     search_context:
-      ENV{PATH}:
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Git LFS"
-        - "C:\\Program Files\\Neovim\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\Java\\jdk-24\\bin"
-        - "C:\\Program Files\\Java\\jre1.8.0_451\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\Users\\gabri\\AppData\\Roaming\\npm"
-        - "C:\\Users\\gabri\\.dotnet\\tools"
-        - "c:\\Users\\gabri\\.vscode\\extensions\\vscjava.vscode-java-debug-0.58.4\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/void_shooter"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/void_shooter"
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:48 (find_package)"
-    name: "SFML"
-    components:
-      -
-        name: "Graphics"
-        required: true
-        found: false
-      -
-        name: "Window"
-        required: true
-        found: false
-      -
-        name: "System"
-        required: true
-        found: false
-      -
-        name: "Audio"
-        required: true
-        found: false
-      -
-        name: "Network"
-        required: true
-        found: false
-    configs:
-      -
-        filename: "SFMLConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "sfml-config.cmake"
-        kind: "cmake"
-    version_request:
-      version: "3"
-      version_complete: "3"
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "SFML"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml/dynamic-debug/cmake/SFML/SFMLConfig.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml/dynamic-debug/cmake/SFML/sfml-config.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/cmake/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/cmake/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/ZeroTier/One/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/ZeroTier/One/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/nodejs/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/nodejs/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git LFS/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git LFS/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/Scripts/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/Scripts/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Microsoft/WindowsApps/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Microsoft/WindowsApps/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Microsoft VS Code/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Microsoft VS Code/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Java/jdk-24/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Java/jdk-24/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/npm/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/npm/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/.vscode/extensions/vscjava.vscode-java-debug-0.58.4/bundled/scripts/noConfigScripts/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/.vscode/extensions/vscjava.vscode-java-debug-0.58.4/bundled/scripts/noConfigScripts/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found: null
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug"
-      ENV{PATH}:
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Git LFS"
-        - "C:\\Program Files\\Neovim\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\Java\\jdk-24\\bin"
-        - "C:\\Program Files\\Java\\jre1.8.0_451\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\Users\\gabri\\AppData\\Roaming\\npm"
-        - "C:\\Users\\gabri\\.dotnet\\tools"
-        - "c:\\Users\\gabri\\.vscode\\extensions\\vscjava.vscode-java-debug-0.58.4\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/void_shooter"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/void_shooter"
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:52 (find_package)"
-    name: "SFML"
-    components:
-      -
-        name: "Graphics"
-        required: true
-        found: false
-      -
-        name: "Window"
-        required: true
-        found: false
-      -
-        name: "System"
-        required: true
-        found: false
-      -
-        name: "Audio"
-        required: true
-        found: false
-      -
-        name: "Network"
-        required: true
-        found: false
-    configs:
-      -
-        filename: "SFMLConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "sfml-config.cmake"
-        kind: "cmake"
-    version_request:
-      version: "3"
-      version_complete: "3"
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "SFML"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/cmake/SFML/SFMLConfig.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/cmake/SFML/sfml-config.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/ZeroTier/One/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/ZeroTier/One/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/nodejs/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/nodejs/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git LFS/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git LFS/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/Scripts/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/Scripts/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Python/Python313/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Microsoft/WindowsApps/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Microsoft/WindowsApps/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Microsoft VS Code/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Local/Programs/Microsoft VS Code/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Java/jdk-24/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Java/jdk-24/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/mingw64/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/npm/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/AppData/Roaming/npm/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/.vscode/extensions/vscjava.vscode-java-debug-0.58.4/bundled/scripts/noConfigScripts/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/.vscode/extensions/vscjava.vscode-java-debug-0.58.4/bundled/scripts/noConfigScripts/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found: null
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/lib/sfml-dynamic-debug"
-      ENV{PATH}:
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Git LFS"
-        - "C:\\Program Files\\Neovim\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\Java\\jdk-24\\bin"
-        - "C:\\Program Files\\Java\\jre1.8.0_451\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\Users\\gabri\\AppData\\Roaming\\npm"
-        - "C:\\Users\\gabri\\.dotnet\\tools"
-        - "c:\\Users\\gabri\\.vscode\\extensions\\vscjava.vscode-java-debug-0.58.4\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/void_shooter"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/void_shooter"
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:39 (find_package)"
-    name: "SFML"
-    components:
-      -
-        name: "Graphics"
-        required: true
-        found: false
-      -
-        name: "Window"
-        required: true
-        found: false
-      -
-        name: "System"
-        required: true
-        found: false
-      -
-        name: "Audio"
-        required: true
-        found: false
-      -
-        name: "Network"
-        required: true
-        found: false
-    configs:
-      -
-        filename: "SFMLConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "sfml-config.cmake"
-        kind: "cmake"
-    version_request:
-      version: "3"
-      version_complete: "3"
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "SFML"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/cmake/SFML/SFMLConfig.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/cmake/SFML/sfml-config.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/lib/cmake/SFML/SFMLConfig.cmake"
-      mode: "config"
-      version: "3.0.2"
-    search_context:
-      ENV{PATH}:
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Git LFS"
-        - "C:\\Program Files\\Neovim\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\gabri\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\gabri\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\Java\\jdk-24\\bin"
-        - "C:\\Program Files\\Java\\jre1.8.0_451\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\Users\\gabri\\AppData\\Roaming\\npm"
-        - "C:\\Users\\gabri\\.dotnet\\tools"
-        - "c:\\Users\\gabri\\.vscode\\extensions\\vscjava.vscode-java-debug-0.58.4\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/void_shooter"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/void_shooter"
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:39 (find_package)"
-    name: "SFML"
-    components:
-      -
-        name: "Graphics"
-        required: true
-        found: false
-      -
-        name: "Window"
-        required: true
-        found: false
-      -
-        name: "System"
-        required: true
-        found: false
-      -
-        name: "Audio"
-        required: true
-        found: false
-      -
-        name: "Network"
-        required: true
-        found: false
-    configs:
-      -
-        filename: "SFMLConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "sfml-config.cmake"
-        kind: "cmake"
-    version_request:
-      version: "3"
-      version_complete: "3"
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "SFML"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/cmake/SFML/SFMLConfig.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/cmake/SFML/sfml-config.cmake"
-        mode: "none?"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug/CMakeFiles/pkgRedirects/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/lib/cmake/SFML/SFMLConfig.cmake"
-      mode: "config"
-      version: "3.0.2"
-    search_context:
+      package_stack:
+        -
+          package_paths:
+            - "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug"
       ENV{PATH}:
         - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gabri\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
