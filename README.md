@@ -1,4 +1,4 @@
-# Void Shooter
+# Void Shooter 👾
 
 Void Shooter is a small 2D space shooter made in **C++ with SFML**.  
 This project was built mainly for learning, testing ideas, and having fun with low-level game code.
