@@ -1,6 +1,8 @@
 #pragma once
 
 #include "../entity.h"
+#include <cmath>
+
 
 class Player : public Entity {
 public:
@@ -14,7 +16,7 @@ public:
     void animation(float dt);
     void shoot(float dt);
 
-    void handleEvent(const sf::Event& event);
+    void handleEvent(const sf::Event& event, float dt);
 
 private:
     sf::Vector2f velocity{ 0.f, 0.f };

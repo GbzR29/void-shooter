@@ -284,7 +284,6 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Sleep.hpp \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\entities/player/player.h \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/entity.h \
- C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\entities/enemy/enemy.h \
  C:/mingw64/include/c++/14.2.0/cmath \
  C:/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/mingw64/include/c++/14.2.0/bits/specfun.h \
@@ -300,6 +299,7 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
  C:/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  C:/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+ C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\entities/enemy/enemy.h \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\environment/stars.h \
  C:/mingw64/include/c++/14.2.0/random \
  C:/mingw64/include/c++/14.2.0/bits/random.h \
@@ -309,7 +309,31 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/numeric \
  C:/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  C:/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
- C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\ui/ui.h \
+ C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\sound/audio-manager.h \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/InputSoundFile.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/Export.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundFileReader.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundChannel.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/Listener.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/Music.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundStream.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundSource.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/AudioResource.hpp \
+ C:/mingw64/include/c++/14.2.0/functional \
+ C:/mingw64/include/c++/14.2.0/bits/std_function.h \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/OutputSoundFile.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundFileWriter.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/PlaybackDevice.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/Sound.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundBuffer.hpp \
+ C:/mingw64/include/c++/14.2.0/unordered_set \
+ C:/mingw64/include/c++/14.2.0/bits/unordered_set.h \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundBufferRecorder.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundRecorder.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundFileFactory.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundFileFactory.inl \
  C:/mingw64/include/c++/14.2.0/iostream \
+ C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\ui/ui.h \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/earth_texture_spritesheet.h \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/earth_spritesheet.h

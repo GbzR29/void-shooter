@@ -54,42 +54,45 @@ void Player::animation(float dt){
 }
 
 void Player::shoot(float dt){
-
+    std::cout << "Shooted!!" << std::endl;
 }
 
-void Player::handleEvent(const sf::Event& event)
+void Player::handleEvent(const sf::Event& event, float dt)
 {
     if (const auto* keyPressed = event.getIf<sf::Event::KeyPressed>())
     {
         if (keyPressed->code == sf::Keyboard::Key::Space)
         {
-            std::cout << "Atirou!" << std::endl;
+            shoot(dt);
         }
     }
 }
 
 void Player::input(float dt) {       
 
+    sf::Vector2f direction(0.f, 0.f);
 
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) || sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up))
+        direction.y -= 1.f;
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S) || sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Down))
+        direction.y += 1.f;
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A) || sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left))
+        direction.x -= 1.f;
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D) || sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Right))
+        direction.x += 1.f;
+
+    // normalization
+    if (direction.x != 0.f || direction.y != 0.f)
     {
-        player_sprite.move({ 0, (-300 * dt) });
+        float length = std::sqrt(direction.x * direction.x + direction.y * direction.y);
+        direction /= length;
     }
 
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
-    {
-        player_sprite.move({ 0, (300 * dt) });
-    }
-
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
-    {
-        player_sprite.move({ (-300 * dt), 0 });
-    }
-
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
-    {
-        player_sprite.move({ (300 * dt), 0 });
-    }
+    const float speed = 300.f;
+    player_sprite.move(direction * speed * dt);
 }
 
 void Player::clampToScreen() {

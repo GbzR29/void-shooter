@@ -284,6 +284,21 @@ CMakeFiles/void-shooter.dir/src/core/entities/player/player.cpp.obj: \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/InputStream.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/MemoryInputStream.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Sleep.hpp \
+ C:/mingw64/include/c++/14.2.0/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64/include/c++/14.2.0/bits/specfun.h \
+ C:/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
+ C:/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+ C:/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/textures/player_texture.h \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/sprites/thruster/thruster_spritesheet.h \
  C:/mingw64/include/c++/14.2.0/iostream

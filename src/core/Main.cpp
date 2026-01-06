@@ -4,14 +4,14 @@
 #include "entities/enemy/enemy.h"
 #include "environment/stars.h"
 
+#include "sound/audio-manager.h"
+
 #include "ui/ui.h"
 
 #include <iostream>
 
-
 #include "../assets/textures/earth_texture_spritesheet.h"
 #include "../assets/textures/earth_spritesheet.h"
-
 
 int main()
 {
@@ -29,10 +29,13 @@ int main()
     //Entities
     Player player;
     Enemy enemy;
-    Stars stars;      
+    Stars stars(150);      
     
     UI ui;
-  
+    AudioManager audio;
+
+    audio.playBackgroundMusic(true);
+      
     // earth texture =======================================================================
     sf::Texture earth_texture;
     if (!earth_texture.loadFromMemory(earth_spritesheet_png, earth_spritesheet_png_len))
@@ -45,16 +48,16 @@ int main()
     const int earth_total_frames = 163;
     int earth_actual_frame = 0;
 
-
     earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame, 0}, {100, 100}));
     earth_sprite.setScale({10.0f, 10.0f});
     earth_sprite.setPosition({-100, 400});
     earth_sprite.setColor(sf::Color(100, 100, 100, 255));
    
+    float delta_time = 0;
 
     while (window.isOpen())
     {               
-        float delta_time = clock.restart().asSeconds();     
+        delta_time = clock.restart().asSeconds();     
         //delta time clamping
         delta_time = std::min((double)delta_time, 0.05);
 
@@ -76,7 +79,7 @@ int main()
         
         while (const std::optional event = window.pollEvent())
         {   
-            player.handleEvent(*event);
+            player.handleEvent(*event, delta_time);
 
             if (event->is<sf::Event::Closed>())
                 window.close();
@@ -98,7 +101,6 @@ int main()
 
         window.display();
     }
-
 
     return 0;
 }

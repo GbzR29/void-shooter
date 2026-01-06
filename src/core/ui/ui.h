@@ -12,4 +12,7 @@ class UI {
     private:
         sf::Texture healthbar_texture;
         sf::Sprite healthbar_sprite;
+
+        sf::Font default_font;
+        sf::Text score_text;
 };

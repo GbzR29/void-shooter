@@ -84,12 +84,12 @@ clean: CMakeFiles/void-shooter.dir/clean
 CMakeFiles/void-shooter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target void-shooter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target void-shooter"
 .PHONY : CMakeFiles/void-shooter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/void-shooter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/void-shooter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" 0
 .PHONY : CMakeFiles/void-shooter.dir/rule
@@ -101,7 +101,7 @@ void-shooter: CMakeFiles/void-shooter.dir/rule
 # codegen rule for target.
 CMakeFiles/void-shooter.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target void-shooter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target void-shooter"
 .PHONY : CMakeFiles/void-shooter.dir/codegen
 
 # clean rule for target.
