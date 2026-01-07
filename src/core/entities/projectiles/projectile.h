@@ -3,21 +3,25 @@
 
 #include <iostream>
 
-class Projectile : Entity{
-
-    public:
-
-        Projectile(ResourceManager& rm);
-
-        void update(float dt) override;
-        void draw(sf::RenderWindow& window) const override;
-        void set_Position(sf::Vector2f position);
+class Projectile : public Entity{
 
     private:
 
         sf::Vector2f position;
         sf::Vector2f velocity;
 
+        bool active = false;
+
         sf::Sprite projectile_sprite;
 
+    public:
+
+        Projectile(ResourceManager& rm);
+
+        void activate(sf::Vector2f startPos, sf::Vector2f vel);
+        bool isActive() const {return active;}
+
+        void update(float dt) override;
+        void draw(sf::RenderWindow& window) const override;
+        void set_Position(sf::Vector2f position);
 };

@@ -3,9 +3,7 @@
 #include <iostream>
 
 Player::Player(ResourceManager& rm) : player_sprite(rm.getTexture(TextureID::Player)), thruster_sprite(rm.getTexture(TextureID::Thruster)){
-    player_sprite = sf::Sprite(rm.getTexture(TextureID::Player));
-    thruster_sprite = sf::Sprite(rm.getTexture(TextureID::Thruster));
-
+    
     player_sprite.setScale({3, 3});
     player_sprite.setPosition({ (800 - 48) / 2, (600 - 48) / 2 });
         
@@ -13,12 +11,18 @@ Player::Player(ResourceManager& rm) : player_sprite(rm.getTexture(TextureID::Pla
     thruster_sprite.setPosition(thruster_position);
     thruster_sprite.setTextureRect(sf::IntRect({0, 0}, {8, 8}));
 
-    /*ammunition.reserve(max_ammo);
+    ammunition.reserve(max_ammo);
+
     for(int i = 0; i < max_ammo; i++){
-        ammunition.emplace_back();
-    }*/
+        ammunition.emplace_back(rm);
+    }
 
     //O(1)
+}
+
+void Player::shoot(float dt){
+    
+    //std::cout << "Shooted!!" << std::endl;
 }
 
 void Player::update(float dt) {
@@ -52,10 +56,6 @@ void Player::animation(float dt){
     //O(1)
 }
 
-void Player::shoot(float dt){
-    std::cout << "Shooted!!" << std::endl;
-}
-
 void Player::handleEvent(const sf::Event& event, float dt)
 {
     if (const auto* keyPressed = event.getIf<sf::Event::KeyPressed>())
@@ -67,7 +67,6 @@ void Player::handleEvent(const sf::Event& event, float dt)
         }
         //O(1)
     }
-
     //O(1)
 }
 

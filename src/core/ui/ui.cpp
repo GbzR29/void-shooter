@@ -4,7 +4,6 @@
 
 UI::UI(ResourceManager& rm) : healthbar_sprite(rm.getTexture(TextureID::HealthBar)), score_text(rm.getFont(FontID::Pixel)){
     
-    score_text = sf::Text(rm.getFont(FontID::Pixel));
     score_text.setString("Score: ");
     score_text.setCharacterSize(32);
     score_text.setFillColor(sf::Color::White);

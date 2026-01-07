@@ -1,8 +1,7 @@
 #include "planet.h"
 
 Planet::Planet(ResourceManager& rm) : earth_sprite(rm.getTexture(TextureID::Planet)){
-    earth_sprite = sf::Sprite(rm.getTexture(TextureID::Planet));
-
+    
     earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame, 0}, {100, 100}));
     earth_sprite.setScale({10.0f, 10.0f});
     earth_sprite.setPosition({-100, 400});

@@ -279,29 +279,29 @@ src/core/environment/stars.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.s
 .PHONY : src/core/environment/stars.cpp.s
 
-src/core/main.obj: src/core/main.cpp.obj
-.PHONY : src/core/main.obj
+src/core/game.obj: src/core/game.cpp.obj
+.PHONY : src/core/game.obj
 
 # target to build an object file
-src/core/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/main.cpp.obj
-.PHONY : src/core/main.cpp.obj
+src/core/game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/game.cpp.obj
+.PHONY : src/core/game.cpp.obj
 
-src/core/main.i: src/core/main.cpp.i
-.PHONY : src/core/main.i
+src/core/game.i: src/core/game.cpp.i
+.PHONY : src/core/game.i
 
 # target to preprocess a source file
-src/core/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/main.cpp.i
-.PHONY : src/core/main.cpp.i
+src/core/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/game.cpp.i
+.PHONY : src/core/game.cpp.i
 
-src/core/main.s: src/core/main.cpp.s
-.PHONY : src/core/main.s
+src/core/game.s: src/core/game.cpp.s
+.PHONY : src/core/game.s
 
 # target to generate assembly for a file
-src/core/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/main.cpp.s
-.PHONY : src/core/main.cpp.s
+src/core/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/game.cpp.s
+.PHONY : src/core/game.cpp.s
 
 src/core/sound/audio-manager.obj: src/core/sound/audio-manager.cpp.obj
 .PHONY : src/core/sound/audio-manager.obj
@@ -403,9 +403,9 @@ help:
 	@echo ... src/core/environment/stars.obj
 	@echo ... src/core/environment/stars.i
 	@echo ... src/core/environment/stars.s
-	@echo ... src/core/main.obj
-	@echo ... src/core/main.i
-	@echo ... src/core/main.s
+	@echo ... src/core/game.obj
+	@echo ... src/core/game.i
+	@echo ... src/core/game.s
 	@echo ... src/core/sound/audio-manager.obj
 	@echo ... src/core/sound/audio-manager.i
 	@echo ... src/core/sound/audio-manager.s

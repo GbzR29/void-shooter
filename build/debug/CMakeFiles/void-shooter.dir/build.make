@@ -161,20 +161,20 @@ CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\core\environment\stars.cpp" -o CMakeFiles\void-shooter.dir\src\core\environment\stars.cpp.s
 
-CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: CMakeFiles/void-shooter.dir/flags.make
-CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: CMakeFiles/void-shooter.dir/includes_CXX.rsp
-CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/main.cpp
-CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: CMakeFiles/void-shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/void-shooter.dir/src/core/main.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/void-shooter.dir/src/core/main.cpp.obj -MF CMakeFiles\void-shooter.dir\src\core\main.cpp.obj.d -o CMakeFiles\void-shooter.dir\src\core\main.cpp.obj -c "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\core\main.cpp"
+CMakeFiles/void-shooter.dir/src/core/game.cpp.obj: CMakeFiles/void-shooter.dir/flags.make
+CMakeFiles/void-shooter.dir/src/core/game.cpp.obj: CMakeFiles/void-shooter.dir/includes_CXX.rsp
+CMakeFiles/void-shooter.dir/src/core/game.cpp.obj: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/game.cpp
+CMakeFiles/void-shooter.dir/src/core/game.cpp.obj: CMakeFiles/void-shooter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/void-shooter.dir/src/core/game.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/void-shooter.dir/src/core/game.cpp.obj -MF CMakeFiles\void-shooter.dir\src\core\game.cpp.obj.d -o CMakeFiles\void-shooter.dir\src\core\game.cpp.obj -c "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\core\game.cpp"
 
-CMakeFiles/void-shooter.dir/src/core/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/void-shooter.dir/src/core/main.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\core\main.cpp" > CMakeFiles\void-shooter.dir\src\core\main.cpp.i
+CMakeFiles/void-shooter.dir/src/core/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/void-shooter.dir/src/core/game.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\core\game.cpp" > CMakeFiles\void-shooter.dir\src\core\game.cpp.i
 
-CMakeFiles/void-shooter.dir/src/core/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/void-shooter.dir/src/core/main.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\core\main.cpp" -o CMakeFiles\void-shooter.dir\src\core\main.cpp.s
+CMakeFiles/void-shooter.dir/src/core/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/void-shooter.dir/src/core/game.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\core\game.cpp" -o CMakeFiles\void-shooter.dir\src\core\game.cpp.s
 
 CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: CMakeFiles/void-shooter.dir/flags.make
 CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: CMakeFiles/void-shooter.dir/includes_CXX.rsp
@@ -229,7 +229,7 @@ void__shooter_OBJECTS = \
 "CMakeFiles/void-shooter.dir/src/core/environment/environment.cpp.obj" \
 "CMakeFiles/void-shooter.dir/src/core/environment/planet.cpp.obj" \
 "CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.obj" \
-"CMakeFiles/void-shooter.dir/src/core/main.cpp.obj" \
+"CMakeFiles/void-shooter.dir/src/core/game.cpp.obj" \
 "CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj" \
 "CMakeFiles/void-shooter.dir/src/core/system/resource_manager.cpp.obj" \
 "CMakeFiles/void-shooter.dir/src/core/ui/ui.cpp.obj"
@@ -243,7 +243,7 @@ void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/entities/projectiles/proj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/environment/environment.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/environment/planet.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.obj
-void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/main.cpp.obj
+void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/game.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/system/resource_manager.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/core/ui/ui.cpp.obj

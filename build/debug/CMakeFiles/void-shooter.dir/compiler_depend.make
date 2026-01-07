@@ -1046,6 +1046,9 @@ CMakeFiles/void-shooter.dir/src/core/entities/projectiles/projectile.cpp.obj: C:
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/projectiles/projectile.h
 
+CMakeFiles/void-shooter.dir/src/core/environment/environment.cpp.obj: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/environment.cpp \
+  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/environment.h
+
 CMakeFiles/void-shooter.dir/src/core/environment/planet.cpp.obj: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/planet.cpp \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Audio.hpp \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Audio/AudioResource.hpp \
@@ -1713,7 +1716,7 @@ CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.obj: C:/Users/gabri/D
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/stars.h
 
-CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/main.cpp \
+CMakeFiles/void-shooter.dir/src/core/game.cpp.obj: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/game.cpp \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Audio.hpp \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Audio/AudioResource.hpp \
   C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Audio/Export.hpp \
@@ -3286,6 +3289,8 @@ C:/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h:
 
 C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Graphics/Transform.inl:
 
+C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/environment.cpp:
+
 C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/Graphics/Transformable.hpp:
 
 C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/include/SFML/System/FileInputStream.hpp:
@@ -3700,6 +3705,8 @@ C:/mingw64/include/c++/14.2.0/memory:
 
 C:/mingw64/include/c++/14.2.0/optional:
 
+C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/environment/environment.h:
+
 C:/mingw64/include/c++/14.2.0/ostream:
 
 C:/mingw64/include/c++/14.2.0/pstl/execution_defs.h:
@@ -3844,7 +3851,7 @@ C:/mingw64/include/c++/14.2.0/random:
 
 C:/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h:
 
-C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/main.cpp:
+C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/game.cpp:
 
 C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/resource_manager.cpp:
 
