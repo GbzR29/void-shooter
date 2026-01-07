@@ -359,5 +359,6 @@ CMakeFiles/void-shooter.dir/src/core/main.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/numeric \
  C:/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  C:/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
+ C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\environment/planet.h \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\sound/audio-manager.h \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\ui/ui.h

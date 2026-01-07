@@ -207,6 +207,54 @@ src/core/entities/projectiles/projectile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/projectiles/projectile.cpp.s
 .PHONY : src/core/entities/projectiles/projectile.cpp.s
 
+src/core/environment/environment.obj: src/core/environment/environment.cpp.obj
+.PHONY : src/core/environment/environment.obj
+
+# target to build an object file
+src/core/environment/environment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/environment.cpp.obj
+.PHONY : src/core/environment/environment.cpp.obj
+
+src/core/environment/environment.i: src/core/environment/environment.cpp.i
+.PHONY : src/core/environment/environment.i
+
+# target to preprocess a source file
+src/core/environment/environment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/environment.cpp.i
+.PHONY : src/core/environment/environment.cpp.i
+
+src/core/environment/environment.s: src/core/environment/environment.cpp.s
+.PHONY : src/core/environment/environment.s
+
+# target to generate assembly for a file
+src/core/environment/environment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/environment.cpp.s
+.PHONY : src/core/environment/environment.cpp.s
+
+src/core/environment/planet.obj: src/core/environment/planet.cpp.obj
+.PHONY : src/core/environment/planet.obj
+
+# target to build an object file
+src/core/environment/planet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/planet.cpp.obj
+.PHONY : src/core/environment/planet.cpp.obj
+
+src/core/environment/planet.i: src/core/environment/planet.cpp.i
+.PHONY : src/core/environment/planet.i
+
+# target to preprocess a source file
+src/core/environment/planet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/planet.cpp.i
+.PHONY : src/core/environment/planet.cpp.i
+
+src/core/environment/planet.s: src/core/environment/planet.cpp.s
+.PHONY : src/core/environment/planet.s
+
+# target to generate assembly for a file
+src/core/environment/planet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/planet.cpp.s
+.PHONY : src/core/environment/planet.cpp.s
+
 src/core/environment/stars.obj: src/core/environment/stars.cpp.obj
 .PHONY : src/core/environment/stars.obj
 
@@ -346,6 +394,12 @@ help:
 	@echo ... src/core/entities/projectiles/projectile.obj
 	@echo ... src/core/entities/projectiles/projectile.i
 	@echo ... src/core/entities/projectiles/projectile.s
+	@echo ... src/core/environment/environment.obj
+	@echo ... src/core/environment/environment.i
+	@echo ... src/core/environment/environment.s
+	@echo ... src/core/environment/planet.obj
+	@echo ... src/core/environment/planet.i
+	@echo ... src/core/environment/planet.s
 	@echo ... src/core/environment/stars.obj
 	@echo ... src/core/environment/stars.i
 	@echo ... src/core/environment/stars.s

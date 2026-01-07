@@ -3,19 +3,14 @@
 #include <iostream>
 
 Player::Player(ResourceManager& rm) : player_sprite(rm.getTexture(TextureID::Player)), thruster_sprite(rm.getTexture(TextureID::Thruster)){
-
     player_sprite = sf::Sprite(rm.getTexture(TextureID::Player));
     thruster_sprite = sf::Sprite(rm.getTexture(TextureID::Thruster));
 
     player_sprite.setScale({3, 3});
     player_sprite.setPosition({ (800 - 48) / 2, (600 - 48) / 2 });
-    
-
-    thruster_x_position = player_sprite.getPosition().x + 12;
-    thruster_y_position = player_sprite.getPosition().y + 45;
-    
+        
     thruster_sprite.setScale({3, 3});
-    thruster_sprite.setPosition({thruster_x_position, thruster_y_position});
+    thruster_sprite.setPosition(thruster_position);
     thruster_sprite.setTextureRect(sf::IntRect({0, 0}, {8, 8}));
 
     /*ammunition.reserve(max_ammo);
@@ -27,28 +22,21 @@ Player::Player(ResourceManager& rm) : player_sprite(rm.getTexture(TextureID::Pla
 }
 
 void Player::update(float dt) {
+    thruster_position = player_sprite.getPosition();
+    thruster_position.x += 12;
+    thruster_position.y += 45;
 
-    //projectile.set_xPosition(player_sprite.getPosition().x + 16);
-    //projectile.set_yPosition(player_sprite.getPosition().y - 24);
-    //projectile.update(dt);
-
-    thruster_x_position = player_sprite.getPosition().x + 12;
-    thruster_y_position = player_sprite.getPosition().y + 45;
-    thruster_sprite.setPosition({thruster_x_position, thruster_y_position});
+    thruster_sprite.setPosition(thruster_position);
 
     animation(dt);
-
     input(dt);
-    clampToScreen();    
-
+    clampToScreen();
     //O(1)
 }
 
 void Player::draw(sf::RenderWindow& window) const {
     window.draw(player_sprite);
     window.draw(thruster_sprite);
-
-    //projectile.draw(window);
 
     //O(1)
 }
@@ -61,7 +49,6 @@ void Player::animation(float dt){
     thruster_actual_frame = static_cast<int>(thruster_anim_time * thruster_fps) % thruster_total_frames;
 
     thruster_sprite.setTextureRect(sf::IntRect({thruster_actual_frame * 8, 0}, {8, 8}));
-
     //O(1)
 }
 
@@ -107,9 +94,7 @@ void Player::input(float dt) {
         direction /= length;
         //O(1)
     }
-
-    const float speed = 300.f;
-    player_sprite.move(direction * speed * dt);
+    player_sprite.move(direction * player_speed * dt);
 
     //O(1)
 }

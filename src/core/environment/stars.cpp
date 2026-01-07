@@ -11,7 +11,6 @@ void Stars::draw_stars(sf::RenderWindow& window) {
         }
 }
 
-
 void Stars::update_stars(float delta_time) {
         for (auto& star : stars) {
             star.move({0.f, 100.f * delta_time}); //vertical speed

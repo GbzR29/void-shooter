@@ -3,6 +3,7 @@
 #include "entities/player/player.h"
 #include "entities/enemy/enemy.h"
 #include "environment/stars.h"
+#include "environment/planet.h"
 
 #include "sound/audio-manager.h"
 
@@ -28,22 +29,14 @@ int main()
     //Entities
     Player player(rm);
     Enemy enemy(rm);
-    Stars stars(150);      
-    
+
+    //environment
+    Stars stars(150);    
+    Planet planet(rm);
+
     UI ui(rm);
     AudioManager audio(rm);    
-      
-    sf::Sprite earth_sprite(rm.getTexture(TextureID::Planet)); 
-
-    float earth_anim_time = 0.f;    
-    const int earth_total_frames = 163;
-    int earth_actual_frame = 0;
-
-    earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame, 0}, {100, 100}));
-    earth_sprite.setScale({10.0f, 10.0f});
-    earth_sprite.setPosition({-100, 400});
-    earth_sprite.setColor(sf::Color(100, 100, 100, 255));
-   
+         
     float delta_time = 0;
 
     while (window.isOpen())
@@ -57,15 +50,6 @@ int main()
         int fps = frames / elapse_time;
 
         window.setTitle("Void Shooter - FPS: " + std::to_string(fps));    
-        
-        //earth animation
-        float earth_time_scale = 0.05;
-        earth_anim_time += delta_time * earth_time_scale;
-
-        const float earth_fps = 120.f;
-        earth_actual_frame = static_cast<int>(earth_anim_time * earth_fps) % earth_total_frames;
-
-        earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame * 100, 0}, {100, 100}));
               
         while (const std::optional event = window.pollEvent())
         {   
@@ -76,17 +60,23 @@ int main()
         }
         window.clear();
 
+        //environment draw
         stars.draw_stars(window);
+        planet.draw(window);
+
+        //environment update
         stars.update_stars(delta_time);
+        planet.update(delta_time);
 
-        window.draw(earth_sprite);
-
-        enemy.update(delta_time);
+        //entities draw        
+        player.draw(window);
         enemy.draw(window);
 
-        player.update(delta_time);        
-        player.draw(window);
+        //entities update
+        player.update(delta_time); 
+        enemy.update(delta_time);
         
+        //ui draw
         ui.draw(window);
 
         window.display();
