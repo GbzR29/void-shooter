@@ -270,6 +270,9 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Vector2.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Vector2.inl \
+ C:/mingw64/include/c++/14.2.0/algorithm \
+ C:/mingw64/include/c++/14.2.0/bits/ranges_algo.h \
+ C:/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/resource_manager.h \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/BlendMode.hpp \
@@ -329,5 +332,4 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Context.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Cursor.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Touch.hpp \
- C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/resource_ids.h \
- C:/mingw64/include/c++/14.2.0/iostream
+ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/resource_ids.h

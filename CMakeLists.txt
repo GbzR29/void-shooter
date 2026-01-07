@@ -29,7 +29,7 @@ set(SFML_DIR "${SFML_ROOT}/lib/cmake/SFML")
 find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System Audio Network)
 
 # executable
-file(GLOB_RECURSE SRC_FILES src/core/*.cpp)
+file(GLOB_RECURSE SRC_FILES src/*.cpp)
 add_executable(void-shooter ${SRC_FILES})
 
 target_compile_features(void-shooter PRIVATE cxx_std_23)

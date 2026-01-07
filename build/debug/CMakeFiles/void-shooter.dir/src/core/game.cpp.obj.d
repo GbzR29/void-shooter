@@ -335,6 +335,10 @@ CMakeFiles/void-shooter.dir/src/core/game.cpp.obj: \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/resource_ids.h \
  C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/entities/projectiles/projectile.h \
  C:/mingw64/include/c++/14.2.0/iostream \
+ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/audio/audio-manager.h \
+ C:/mingw64/include/c++/14.2.0/algorithm \
+ C:/mingw64/include/c++/14.2.0/bits/ranges_algo.h \
+ C:/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
  C:/mingw64/include/c++/14.2.0/cmath \
  C:/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/mingw64/include/c++/14.2.0/bits/specfun.h \
@@ -360,5 +364,4 @@ CMakeFiles/void-shooter.dir/src/core/game.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  C:/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\environment/planet.h \
- C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\sound/audio-manager.h \
  C:\Users\gabri\Documents\MEGA\Programming\Github\ projects\void-shooter\src\core\ui/ui.h
