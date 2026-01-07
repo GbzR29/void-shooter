@@ -1,17 +1,18 @@
 #pragma once
 
 #include <SFML/Audio.hpp>
-#include <string>
+#include "../system/resource_manager.h"
 #include <iostream>
-#include <optional>
 
-class AudioManager{
+class AudioManager {
+public:
+    
+    AudioManager(ResourceManager& rm);
 
-    public:
-        bool playBackgroundMusic(bool loop);
-        void setVolume(float volume);
-        void stopMusic();
+    void playBackgroundMusic(bool loop);
+    void setVolume(float volume);
+    void stopMusic();
 
-    private:
-        sf::Music music;
+private:
+    ResourceManager& rm;
 };

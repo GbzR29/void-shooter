@@ -1,12 +1,14 @@
 #pragma once
 
 #include "../entity.h"
+#include "../projectiles/projectile.h"
 #include <cmath>
+#include <vector>
 
 
 class Player : public Entity {
 public:
-    Player();               
+    Player(ResourceManager& rm);               
     virtual ~Player() = default;
 
     void update(float dt) override;
@@ -19,9 +21,12 @@ public:
     void handleEvent(const sf::Event& event, float dt);
 
 private:
+
+    std::vector<Projectile> ammunition;
+    int max_ammo = 20;
+    
     sf::Vector2f velocity{ 0.f, 0.f };
 
-    sf::Texture thruster_texture;
     sf::Sprite thruster_sprite;
 
     float thruster_x_position;
@@ -31,7 +36,6 @@ private:
     float thruster_anim_time = 0;
     int thruster_actual_frame = 0;
 
-    sf::Texture player_texture;
     sf::Sprite player_sprite;
     float speed = 200.f;
     int hp = 10;

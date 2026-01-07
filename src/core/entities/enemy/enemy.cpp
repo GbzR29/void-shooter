@@ -1,23 +1,16 @@
 #include "enemy.h"
 #include <iostream>
 
-#include "../../../assets/textures/purp_enemy_texture.h"
 
-Enemy::Enemy() : enemy_sprite(enemy_texture){
-
-    if (!enemy_texture.loadFromMemory(purple_enemy_png, purple_enemy_png_len))
-    {
-        std::cout << "Failed to load purple_enemy texture" << std::endl;
-    }
+Enemy::Enemy(ResourceManager& rm) : enemy_sprite(rm.getTexture(TextureID::Enemy)){
 
     enemy_x_position = 400.f - 25.f;
     enemy_y_position = 100;
 
     amplitude = 50.0f;
-
     enemy_anim_time = 0;
 
-    enemy_sprite = sf::Sprite(enemy_texture);
+    enemy_sprite = sf::Sprite(rm.getTexture(TextureID::Enemy));
     enemy_sprite.setScale({3, 3});
     enemy_sprite.setPosition({10, 100});
 }

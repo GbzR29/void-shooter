@@ -7,13 +7,13 @@ class Enemy : public Entity{
 
     public:
 
-        Enemy();
+        Enemy(ResourceManager& rm);
         void update(float dt) override;
         void draw(sf::RenderWindow& window) const override;
         void shoot(float dt);
 
     private:    
-        sf::Texture enemy_texture;
+        
         sf::Sprite enemy_sprite;
 
         float enemy_x_position;

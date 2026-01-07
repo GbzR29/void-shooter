@@ -10,9 +10,6 @@
 
 #include <iostream>
 
-#include "../assets/textures/earth_texture_spritesheet.h"
-#include "../assets/textures/earth_spritesheet.h"
-
 int main()
 {
     sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "");
@@ -26,23 +23,17 @@ int main()
     float frame_duration;
     int frames = 0;    
 
+    ResourceManager rm;
+
     //Entities
-    Player player;
-    Enemy enemy;
+    Player player(rm);
+    Enemy enemy(rm);
     Stars stars(150);      
     
-    UI ui;
-    AudioManager audio;
-
-    audio.playBackgroundMusic(true);
+    UI ui(rm);
+    AudioManager audio(rm);    
       
-    // earth texture =======================================================================
-    sf::Texture earth_texture;
-    if (!earth_texture.loadFromMemory(earth_spritesheet_png, earth_spritesheet_png_len))
-    {
-        std::cout << "Failed to load earth texture" << std::endl;
-    }
-    sf::Sprite earth_sprite(earth_texture); 
+    sf::Sprite earth_sprite(rm.getTexture(TextureID::Planet)); 
 
     float earth_anim_time = 0.f;    
     const int earth_total_frames = 163;
@@ -76,7 +67,6 @@ int main()
 
         earth_sprite.setTextureRect(sf::IntRect({earth_actual_frame * 100, 0}, {100, 100}));
               
-        
         while (const std::optional event = window.pollEvent())
         {   
             player.handleEvent(*event, delta_time);

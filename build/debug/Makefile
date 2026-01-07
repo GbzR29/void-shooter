@@ -183,29 +183,29 @@ src/core/entities/player/player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/player/player.cpp.s
 .PHONY : src/core/entities/player/player.cpp.s
 
-src/core/entities/projectiles/laser_bolt.obj: src/core/entities/projectiles/laser_bolt.cpp.obj
-.PHONY : src/core/entities/projectiles/laser_bolt.obj
+src/core/entities/projectiles/projectile.obj: src/core/entities/projectiles/projectile.cpp.obj
+.PHONY : src/core/entities/projectiles/projectile.obj
 
 # target to build an object file
-src/core/entities/projectiles/laser_bolt.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/projectiles/laser_bolt.cpp.obj
-.PHONY : src/core/entities/projectiles/laser_bolt.cpp.obj
+src/core/entities/projectiles/projectile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/projectiles/projectile.cpp.obj
+.PHONY : src/core/entities/projectiles/projectile.cpp.obj
 
-src/core/entities/projectiles/laser_bolt.i: src/core/entities/projectiles/laser_bolt.cpp.i
-.PHONY : src/core/entities/projectiles/laser_bolt.i
+src/core/entities/projectiles/projectile.i: src/core/entities/projectiles/projectile.cpp.i
+.PHONY : src/core/entities/projectiles/projectile.i
 
 # target to preprocess a source file
-src/core/entities/projectiles/laser_bolt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/projectiles/laser_bolt.cpp.i
-.PHONY : src/core/entities/projectiles/laser_bolt.cpp.i
+src/core/entities/projectiles/projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/projectiles/projectile.cpp.i
+.PHONY : src/core/entities/projectiles/projectile.cpp.i
 
-src/core/entities/projectiles/laser_bolt.s: src/core/entities/projectiles/laser_bolt.cpp.s
-.PHONY : src/core/entities/projectiles/laser_bolt.s
+src/core/entities/projectiles/projectile.s: src/core/entities/projectiles/projectile.cpp.s
+.PHONY : src/core/entities/projectiles/projectile.s
 
 # target to generate assembly for a file
-src/core/entities/projectiles/laser_bolt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/projectiles/laser_bolt.cpp.s
-.PHONY : src/core/entities/projectiles/laser_bolt.cpp.s
+src/core/entities/projectiles/projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/projectiles/projectile.cpp.s
+.PHONY : src/core/entities/projectiles/projectile.cpp.s
 
 src/core/environment/stars.obj: src/core/environment/stars.cpp.obj
 .PHONY : src/core/environment/stars.obj
@@ -279,6 +279,30 @@ src/core/sound/audio-manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.s
 .PHONY : src/core/sound/audio-manager.cpp.s
 
+src/core/system/resource_manager.obj: src/core/system/resource_manager.cpp.obj
+.PHONY : src/core/system/resource_manager.obj
+
+# target to build an object file
+src/core/system/resource_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/resource_manager.cpp.obj
+.PHONY : src/core/system/resource_manager.cpp.obj
+
+src/core/system/resource_manager.i: src/core/system/resource_manager.cpp.i
+.PHONY : src/core/system/resource_manager.i
+
+# target to preprocess a source file
+src/core/system/resource_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/resource_manager.cpp.i
+.PHONY : src/core/system/resource_manager.cpp.i
+
+src/core/system/resource_manager.s: src/core/system/resource_manager.cpp.s
+.PHONY : src/core/system/resource_manager.s
+
+# target to generate assembly for a file
+src/core/system/resource_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/resource_manager.cpp.s
+.PHONY : src/core/system/resource_manager.cpp.s
+
 src/core/ui/ui.obj: src/core/ui/ui.cpp.obj
 .PHONY : src/core/ui/ui.obj
 
@@ -319,9 +343,9 @@ help:
 	@echo ... src/core/entities/player/player.obj
 	@echo ... src/core/entities/player/player.i
 	@echo ... src/core/entities/player/player.s
-	@echo ... src/core/entities/projectiles/laser_bolt.obj
-	@echo ... src/core/entities/projectiles/laser_bolt.i
-	@echo ... src/core/entities/projectiles/laser_bolt.s
+	@echo ... src/core/entities/projectiles/projectile.obj
+	@echo ... src/core/entities/projectiles/projectile.i
+	@echo ... src/core/entities/projectiles/projectile.s
 	@echo ... src/core/environment/stars.obj
 	@echo ... src/core/environment/stars.i
 	@echo ... src/core/environment/stars.s
@@ -331,6 +355,9 @@ help:
 	@echo ... src/core/sound/audio-manager.obj
 	@echo ... src/core/sound/audio-manager.i
 	@echo ... src/core/sound/audio-manager.s
+	@echo ... src/core/system/resource_manager.obj
+	@echo ... src/core/system/resource_manager.i
+	@echo ... src/core/system/resource_manager.s
 	@echo ... src/core/ui/ui.obj
 	@echo ... src/core/ui/ui.i
 	@echo ... src/core/ui/ui.s

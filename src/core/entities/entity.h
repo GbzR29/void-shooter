@@ -3,6 +3,8 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
 
+#include "../system/resource_manager.h"
+
 class Entity {
 
 public:

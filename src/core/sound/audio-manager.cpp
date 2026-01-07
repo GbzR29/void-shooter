@@ -1,24 +1,20 @@
 #include "audio-manager.h"
-#include "../../assets/audio/bgm/CosmicAssault_bgm.h"
-#include "../../assets/audio/bgm/StarfighterBlitz_bgm.h"
 
-bool AudioManager::playBackgroundMusic(bool loop) {
-
-    if (!music.openFromMemory(StarfighterBlitz_mp3, StarfighterBlitz_mp3_len)) {
-        std::cerr << "Error loading music file: " << std::endl;
-        return false;
-    } 
-
-    music.setLooping(loop);
-    music.setVolume(50.f); // Initial volume in 50%
-    music.play();
-    return true;
+AudioManager::AudioManager(ResourceManager& rm) : rm(rm){
+    playBackgroundMusic(true);
 }
 
-void AudioManager::setVolume(float volume) {
-    music.setVolume(volume);
+void AudioManager::playBackgroundMusic(bool loop){
+
+    rm.getMusic(MusicID::Background).setLooping(loop);    
+    rm.getMusic(MusicID::Background).setVolume(10.f);
+    rm.getMusic(MusicID::Background).play();
 }
 
-void AudioManager::stopMusic() {
-    music.stop();
+void AudioManager::setVolume(float volume){
+    rm.getMusic(MusicID::Background).setVolume(volume);
+}
+
+void AudioManager::stopMusic(){
+    rm.getMusic(MusicID::Background).stop();
 }

@@ -1,16 +1,17 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "../system/resource_manager.h"
 
 class UI {
     public:
 
-        UI();
+        UI(ResourceManager& rm);
 
-        void draw(sf::RenderWindow &window);
+        void draw(sf::RenderWindow& window);
         void update(float dt);
 
     private:
-        sf::Texture healthbar_texture;
+       
         sf::Sprite healthbar_sprite;
 
         sf::Font default_font;

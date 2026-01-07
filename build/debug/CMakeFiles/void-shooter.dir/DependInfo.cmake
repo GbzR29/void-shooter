@@ -10,10 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/entities/enemy/enemy.cpp" "CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj.d"
   "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/entities/player/player.cpp" "CMakeFiles/void-shooter.dir/src/core/entities/player/player.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/entities/player/player.cpp.obj.d"
-  "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/entities/projectiles/laser_bolt.cpp" "CMakeFiles/void-shooter.dir/src/core/entities/projectiles/laser_bolt.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/entities/projectiles/laser_bolt.cpp.obj.d"
+  "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/entities/projectiles/projectile.cpp" "CMakeFiles/void-shooter.dir/src/core/entities/projectiles/projectile.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/entities/projectiles/projectile.cpp.obj.d"
   "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/environment/stars.cpp" "CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.obj.d"
   "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/main.cpp" "CMakeFiles/void-shooter.dir/src/core/main.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/main.cpp.obj.d"
   "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/sound/audio-manager.cpp" "CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj.d"
+  "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/system/resource_manager.cpp" "CMakeFiles/void-shooter.dir/src/core/system/resource_manager.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/system/resource_manager.cpp.obj.d"
   "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/src/core/ui/ui.cpp" "CMakeFiles/void-shooter.dir/src/core/ui/ui.cpp.obj" "gcc" "CMakeFiles/void-shooter.dir/src/core/ui/ui.cpp.obj.d"
   )
 

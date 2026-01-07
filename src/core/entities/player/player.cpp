@@ -1,32 +1,36 @@
 #include "player.h"
-#include "../../../assets/textures/player_texture.h"
-#include "../../../assets/sprites/thruster/thruster_spritesheet.h"
+
 #include <iostream>
 
-Player::Player() : player_sprite(player_texture), thruster_sprite(thruster_texture){
+Player::Player(ResourceManager& rm) : player_sprite(rm.getTexture(TextureID::Player)), thruster_sprite(rm.getTexture(TextureID::Thruster)){
 
-    if (!player_texture.loadFromMemory(player_png, player_png_len)) {
-        std::cout << "Failed to load player texture!\n";
-    }
+    player_sprite = sf::Sprite(rm.getTexture(TextureID::Player));
+    thruster_sprite = sf::Sprite(rm.getTexture(TextureID::Thruster));
 
-    player_sprite = sf::Sprite(player_texture);
     player_sprite.setScale({3, 3});
     player_sprite.setPosition({ (800 - 48) / 2, (600 - 48) / 2 });
-
-    if (!thruster_texture.loadFromMemory(thruster_png, thruster_png_len)) {
-        std::cout << "Failed to load thruster texture!\n";
-    }
+    
 
     thruster_x_position = player_sprite.getPosition().x + 12;
     thruster_y_position = player_sprite.getPosition().y + 45;
-
-    thruster_sprite = sf::Sprite(thruster_texture);
+    
     thruster_sprite.setScale({3, 3});
     thruster_sprite.setPosition({thruster_x_position, thruster_y_position});
     thruster_sprite.setTextureRect(sf::IntRect({0, 0}, {8, 8}));
+
+    /*ammunition.reserve(max_ammo);
+    for(int i = 0; i < max_ammo; i++){
+        ammunition.emplace_back();
+    }*/
+
+    //O(1)
 }
 
 void Player::update(float dt) {
+
+    //projectile.set_xPosition(player_sprite.getPosition().x + 16);
+    //projectile.set_yPosition(player_sprite.getPosition().y - 24);
+    //projectile.update(dt);
 
     thruster_x_position = player_sprite.getPosition().x + 12;
     thruster_y_position = player_sprite.getPosition().y + 45;
@@ -36,11 +40,17 @@ void Player::update(float dt) {
 
     input(dt);
     clampToScreen();    
+
+    //O(1)
 }
 
 void Player::draw(sf::RenderWindow& window) const {
     window.draw(player_sprite);
     window.draw(thruster_sprite);
+
+    //projectile.draw(window);
+
+    //O(1)
 }
 
 void Player::animation(float dt){
@@ -51,6 +61,8 @@ void Player::animation(float dt){
     thruster_actual_frame = static_cast<int>(thruster_anim_time * thruster_fps) % thruster_total_frames;
 
     thruster_sprite.setTextureRect(sf::IntRect({thruster_actual_frame * 8, 0}, {8, 8}));
+
+    //O(1)
 }
 
 void Player::shoot(float dt){
@@ -64,8 +76,12 @@ void Player::handleEvent(const sf::Event& event, float dt)
         if (keyPressed->code == sf::Keyboard::Key::Space)
         {
             shoot(dt);
+            //O(1)
         }
+        //O(1)
     }
+
+    //O(1)
 }
 
 void Player::input(float dt) {       
@@ -89,10 +105,13 @@ void Player::input(float dt) {
     {
         float length = std::sqrt(direction.x * direction.x + direction.y * direction.y);
         direction /= length;
+        //O(1)
     }
 
     const float speed = 300.f;
     player_sprite.move(direction * speed * dt);
+
+    //O(1)
 }
 
 void Player::clampToScreen() {
@@ -112,4 +131,6 @@ void Player::clampToScreen() {
         pos.y = 600 - bounds.size.y;
 
     player_sprite.setPosition(pos);
+
+    //O(1)
 }

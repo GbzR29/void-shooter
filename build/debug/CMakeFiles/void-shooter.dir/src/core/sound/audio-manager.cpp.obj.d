@@ -38,10 +38,16 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/functional_hash.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_construct.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
+ C:/mingw64/include/c++/14.2.0/bits/iterator_concepts.h \
+ C:/mingw64/include/c++/14.2.0/concepts \
+ C:/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
+ C:/mingw64/include/c++/14.2.0/bits/ranges_cmp.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
  C:/mingw64/include/c++/14.2.0/bits/concept_check.h \
  C:/mingw64/include/c++/14.2.0/debug/assertions.h \
  C:/mingw64/include/c++/14.2.0/bits/utility.h \
+ C:/mingw64/include/c++/14.2.0/compare \
+ C:/mingw64/include/c++/14.2.0/bits/invoke.h \
  C:/mingw64/include/c++/14.2.0/vector \
  C:/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
@@ -51,10 +57,9 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_pair.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
- C:/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
  C:/mingw64/include/c++/14.2.0/debug/debug.h \
  C:/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
- C:/mingw64/include/c++/14.2.0/bit C:/mingw64/include/c++/14.2.0/concepts \
+ C:/mingw64/include/c++/14.2.0/bit \
  C:/mingw64/include/c++/14.2.0/bits/allocator.h \
  C:/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/mingw64/include/c++/14.2.0/bits/new_allocator.h \
@@ -65,7 +70,6 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/stl_vector.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
  C:/mingw64/include/c++/14.2.0/bits/refwrap.h \
- C:/mingw64/include/c++/14.2.0/bits/invoke.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_function.h \
  C:/mingw64/include/c++/14.2.0/backward/binders.h \
  C:/mingw64/include/c++/14.2.0/bits/range_access.h \
@@ -75,6 +79,10 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
  C:/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
  C:/mingw64/include/c++/14.2.0/tuple \
+ C:/mingw64/include/c++/14.2.0/bits/ranges_util.h \
+ C:/mingw64/include/c++/14.2.0/bits/ranges_base.h \
+ C:/mingw64/include/c++/14.2.0/bits/max_size_type.h \
+ C:/mingw64/include/c++/14.2.0/numbers \
  C:/mingw64/include/c++/14.2.0/cstdint \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
@@ -173,6 +181,17 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/basic_ios.h \
  C:/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
  C:/mingw64/include/c++/14.2.0/ostream \
+ C:/mingw64/include/c++/14.2.0/format C:/mingw64/include/c++/14.2.0/array \
+ C:/mingw64/include/c++/14.2.0/charconv \
+ C:/mingw64/include/c++/14.2.0/span C:/mingw64/include/c++/14.2.0/variant \
+ C:/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
+ C:/mingw64/include/c++/14.2.0/bits/unicode.h \
+ C:/mingw64/include/c++/14.2.0/bits/stl_algo.h \
+ C:/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
+ C:/mingw64/include/c++/14.2.0/bits/stl_heap.h \
+ C:/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
+ C:/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
+ C:/mingw64/include/c++/14.2.0/bits/unicode-data.h \
  C:/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  C:/mingw64/include/c++/14.2.0/bits/istream.tcc \
  C:/mingw64/include/c++/14.2.0/bits/sstream.tcc \
@@ -183,16 +202,19 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
  C:/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
  C:/mingw64/include/c++/14.2.0/ext/aligned_buffer.h \
+ C:/mingw64/include/c++/14.2.0/bits/align.h \
  C:/mingw64/include/c++/14.2.0/bits/fs_dir.h \
  C:/mingw64/include/c++/14.2.0/bits/fs_ops.h \
  C:/mingw64/include/c++/14.2.0/memory \
- C:/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
  C:/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
- C:/mingw64/include/c++/14.2.0/bits/align.h \
  C:/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
  C:/mingw64/include/c++/14.2.0/bits/atomic_base.h \
  C:/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
+ C:/mingw64/include/c++/14.2.0/bits/atomic_wait.h \
+ C:/mingw64/include/c++/14.2.0/bits/std_mutex.h \
  C:/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
+ C:/mingw64/include/c++/14.2.0/bits/ranges_uninitialized.h \
+ C:/mingw64/include/c++/14.2.0/bits/out_ptr.h \
  C:/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  C:/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/Listener.hpp \
@@ -215,10 +237,11 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/hashtable_policy.h \
  C:/mingw64/include/c++/14.2.0/bits/node_handle.h \
  C:/mingw64/include/c++/14.2.0/bits/erase_if.h \
- C:/mingw64/include/c++/14.2.0/array \
- C:/mingw64/include/c++/14.2.0/compare \
+ C:/mingw64/include/c++/14.2.0/bits/move_only_function.h \
+ C:/mingw64/include/c++/14.2.0/bits/mofunc_impl.h \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Time.hpp \
  C:/mingw64/include/c++/14.2.0/chrono \
+ C:/mingw64/include/c++/14.2.0/bits/chrono_io.h \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Time.inl \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/OutputSoundFile.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundFileWriter.hpp \
@@ -247,6 +270,64 @@ CMakeFiles/void-shooter.dir/src/core/sound/audio-manager.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Vector2.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Vector2.inl \
- C:/mingw64/include/c++/14.2.0/iostream \
- C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/audio/bgm/CosmicAssault_bgm.h \
- C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/audio/bgm/StarfighterBlitz_bgm.h
+ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/resource_manager.h \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/BlendMode.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Export.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/CircleShape.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Shape.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Color.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Color.inl \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Drawable.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Rect.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Rect.inl \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/RenderStates.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/CoordinateType.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/StencilMode.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Transform.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Transform.inl \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Transformable.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/VertexArray.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Vertex.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/ConvexShape.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Font.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Glyph.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Texture.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/GlResource.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Export.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Image.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/RectangleShape.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/RenderTarget.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/View.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/RenderTexture.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/ContextSettings.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/RenderWindow.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/VideoMode.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Window.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/WindowBase.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Vulkan.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/WindowEnums.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/WindowHandle.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/WindowBase.inl \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Event.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Joystick.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Keyboard.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Mouse.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Sensor.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Event.inl \
+ C:/mingw64/include/c++/14.2.0/utility \
+ C:/mingw64/include/c++/14.2.0/bits/stl_relops.h \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Shader.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Glsl.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Glsl.inl \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Sprite.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/Text.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Clipboard.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Context.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Cursor.hpp \
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Window/Touch.hpp \
+ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/resource_ids.h \
+ C:/mingw64/include/c++/14.2.0/iostream

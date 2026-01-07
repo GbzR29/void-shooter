@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 4.2.1)
 
 project(void_shooter LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # determines the build type (Debug by default)
@@ -31,6 +31,13 @@ find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System Audio Network)
 # executable
 file(GLOB_RECURSE SRC_FILES src/core/*.cpp)
 add_executable(void-shooter ${SRC_FILES})
+
+target_compile_features(void-shooter PRIVATE cxx_std_23)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+get_property(CXX_STANDARD TARGET void-shooter PROPERTY CXX_STANDARD)
+message(STATUS "C++ standard used by void-shooter = C++${CXX_STANDARD}")
+
 
 target_include_directories(void-shooter PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
