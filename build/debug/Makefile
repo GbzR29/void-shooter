@@ -135,6 +135,14 @@ void-shooter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/build
 .PHONY : void-shooter/fast
 
+resources.obj: resources.rc.obj
+.PHONY : resources.obj
+
+# target to build an object file
+resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/resources.rc.obj
+.PHONY : resources.rc.obj
+
 src/core/system/audio/audio_manager.obj: src/core/system/audio/audio_manager.cpp.obj
 .PHONY : src/core/system/audio/audio_manager.obj
 
@@ -433,6 +441,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... void-shooter
+	@echo ... resources.obj
 	@echo ... src/core/system/audio/audio_manager.obj
 	@echo ... src/core/system/audio/audio_manager.i
 	@echo ... src/core/system/audio/audio_manager.s

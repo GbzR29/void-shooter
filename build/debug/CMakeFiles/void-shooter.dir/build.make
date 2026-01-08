@@ -251,6 +251,11 @@ CMakeFiles/void-shooter.dir/src/ui/ui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/void-shooter.dir/src/ui/ui.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\src\ui\ui.cpp" -o CMakeFiles\void-shooter.dir\src\ui\ui.cpp.s
 
+CMakeFiles/void-shooter.dir/resources.rc.obj: CMakeFiles/void-shooter.dir/flags.make
+CMakeFiles/void-shooter.dir/resources.rc.obj: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/resources.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building RC object CMakeFiles/void-shooter.dir/resources.rc.obj"
+	C:\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) "C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\resources.rc" CMakeFiles\void-shooter.dir\resources.rc.obj
+
 # Object files for target void-shooter
 void__shooter_OBJECTS = \
 "CMakeFiles/void-shooter.dir/src/core/system/audio/audio_manager.cpp.obj" \
@@ -264,7 +269,8 @@ void__shooter_OBJECTS = \
 "CMakeFiles/void-shooter.dir/src/environment/stars.cpp.obj" \
 "CMakeFiles/void-shooter.dir/src/game/game.cpp.obj" \
 "CMakeFiles/void-shooter.dir/src/main.cpp.obj" \
-"CMakeFiles/void-shooter.dir/src/ui/ui.cpp.obj"
+"CMakeFiles/void-shooter.dir/src/ui/ui.cpp.obj" \
+"CMakeFiles/void-shooter.dir/resources.rc.obj"
 
 # External object files for target void-shooter
 void__shooter_EXTERNAL_OBJECTS =
@@ -281,6 +287,7 @@ void-shooter.exe: CMakeFiles/void-shooter.dir/src/environment/stars.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/game/game.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/main.cpp.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/src/ui/ui.cpp.obj
+void-shooter.exe: CMakeFiles/void-shooter.dir/resources.rc.obj
 void-shooter.exe: CMakeFiles/void-shooter.dir/build.make
 void-shooter.exe: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/lib/libsfml-graphics-d.a
 void-shooter.exe: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/external/sfml-debug/lib/libsfml-window-d.a
@@ -290,7 +297,7 @@ void-shooter.exe: C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/voi
 void-shooter.exe: CMakeFiles/void-shooter.dir/linkLibs.rsp
 void-shooter.exe: CMakeFiles/void-shooter.dir/objects1.rsp
 void-shooter.exe: CMakeFiles/void-shooter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable void-shooter.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\gabri\Documents\MEGA\Programming\Github projects\void-shooter\build\debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable void-shooter.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\void-shooter.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying DLLs from SFML to the output folder..."
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-audio-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-audio-d-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-graphics-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-graphics-d-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-network-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-network-d-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-system-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-system-d-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-window-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/external/sfml-debug/bin/sfml-window-d-3.dll" "C:/Users/gabri/Documents/MEGA/Programming/Github projects/void-shooter/build/debug"

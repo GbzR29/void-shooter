@@ -1,7 +1,7 @@
 #include "resource_manager.h"
 #include <iostream>
 
-// ===== BINARIES =====
+// ===== Embedded Assets =====
 #include "../../../assets/sprites/player/player_texture.h"
 #include "../../../assets/sprites/thruster/thruster_spritesheet.h"
 #include "../../../assets/sprites/enemy/purp_enemy_texture.h"

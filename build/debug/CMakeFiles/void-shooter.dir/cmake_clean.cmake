@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/void-shooter.dir/resources.rc.obj"
   "CMakeFiles/void-shooter.dir/src/core/system/audio/audio_manager.cpp.obj"
   "CMakeFiles/void-shooter.dir/src/core/system/audio/audio_manager.cpp.obj.d"
   "CMakeFiles/void-shooter.dir/src/core/system/resource/resource_manager.cpp.obj"
@@ -30,6 +31,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/void-shooter.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
