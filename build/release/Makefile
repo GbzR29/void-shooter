@@ -135,125 +135,301 @@ void-shooter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/build
 .PHONY : void-shooter/fast
 
-src/core/entities/enemy/enemy.obj: src/core/entities/enemy/enemy.cpp.obj
-.PHONY : src/core/entities/enemy/enemy.obj
+resources.obj: resources.rc.obj
+.PHONY : resources.obj
 
 # target to build an object file
-src/core/entities/enemy/enemy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.obj
-.PHONY : src/core/entities/enemy/enemy.cpp.obj
+resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/resources.rc.obj
+.PHONY : resources.rc.obj
 
-src/core/entities/enemy/enemy.i: src/core/entities/enemy/enemy.cpp.i
-.PHONY : src/core/entities/enemy/enemy.i
-
-# target to preprocess a source file
-src/core/entities/enemy/enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.i
-.PHONY : src/core/entities/enemy/enemy.cpp.i
-
-src/core/entities/enemy/enemy.s: src/core/entities/enemy/enemy.cpp.s
-.PHONY : src/core/entities/enemy/enemy.s
-
-# target to generate assembly for a file
-src/core/entities/enemy/enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/enemy/enemy.cpp.s
-.PHONY : src/core/entities/enemy/enemy.cpp.s
-
-src/core/entities/player/player.obj: src/core/entities/player/player.cpp.obj
-.PHONY : src/core/entities/player/player.obj
+src/core/system/audio/audio_manager.obj: src/core/system/audio/audio_manager.cpp.obj
+.PHONY : src/core/system/audio/audio_manager.obj
 
 # target to build an object file
-src/core/entities/player/player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/player/player.cpp.obj
-.PHONY : src/core/entities/player/player.cpp.obj
+src/core/system/audio/audio_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/audio/audio_manager.cpp.obj
+.PHONY : src/core/system/audio/audio_manager.cpp.obj
 
-src/core/entities/player/player.i: src/core/entities/player/player.cpp.i
-.PHONY : src/core/entities/player/player.i
+src/core/system/audio/audio_manager.i: src/core/system/audio/audio_manager.cpp.i
+.PHONY : src/core/system/audio/audio_manager.i
 
 # target to preprocess a source file
-src/core/entities/player/player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/player/player.cpp.i
-.PHONY : src/core/entities/player/player.cpp.i
+src/core/system/audio/audio_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/audio/audio_manager.cpp.i
+.PHONY : src/core/system/audio/audio_manager.cpp.i
 
-src/core/entities/player/player.s: src/core/entities/player/player.cpp.s
-.PHONY : src/core/entities/player/player.s
+src/core/system/audio/audio_manager.s: src/core/system/audio/audio_manager.cpp.s
+.PHONY : src/core/system/audio/audio_manager.s
 
 # target to generate assembly for a file
-src/core/entities/player/player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/entities/player/player.cpp.s
-.PHONY : src/core/entities/player/player.cpp.s
+src/core/system/audio/audio_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/audio/audio_manager.cpp.s
+.PHONY : src/core/system/audio/audio_manager.cpp.s
 
-src/core/environment/stars.obj: src/core/environment/stars.cpp.obj
-.PHONY : src/core/environment/stars.obj
+src/core/system/resource/resource_manager.obj: src/core/system/resource/resource_manager.cpp.obj
+.PHONY : src/core/system/resource/resource_manager.obj
 
 # target to build an object file
-src/core/environment/stars.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.obj
-.PHONY : src/core/environment/stars.cpp.obj
+src/core/system/resource/resource_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/resource/resource_manager.cpp.obj
+.PHONY : src/core/system/resource/resource_manager.cpp.obj
 
-src/core/environment/stars.i: src/core/environment/stars.cpp.i
-.PHONY : src/core/environment/stars.i
+src/core/system/resource/resource_manager.i: src/core/system/resource/resource_manager.cpp.i
+.PHONY : src/core/system/resource/resource_manager.i
 
 # target to preprocess a source file
-src/core/environment/stars.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.i
-.PHONY : src/core/environment/stars.cpp.i
+src/core/system/resource/resource_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/resource/resource_manager.cpp.i
+.PHONY : src/core/system/resource/resource_manager.cpp.i
 
-src/core/environment/stars.s: src/core/environment/stars.cpp.s
-.PHONY : src/core/environment/stars.s
+src/core/system/resource/resource_manager.s: src/core/system/resource/resource_manager.cpp.s
+.PHONY : src/core/system/resource/resource_manager.s
 
 # target to generate assembly for a file
-src/core/environment/stars.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/environment/stars.cpp.s
-.PHONY : src/core/environment/stars.cpp.s
+src/core/system/resource/resource_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/resource/resource_manager.cpp.s
+.PHONY : src/core/system/resource/resource_manager.cpp.s
 
-src/core/main.obj: src/core/main.cpp.obj
-.PHONY : src/core/main.obj
+src/core/system/window/window_manager.obj: src/core/system/window/window_manager.cpp.obj
+.PHONY : src/core/system/window/window_manager.obj
 
 # target to build an object file
-src/core/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/main.cpp.obj
-.PHONY : src/core/main.cpp.obj
+src/core/system/window/window_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/window/window_manager.cpp.obj
+.PHONY : src/core/system/window/window_manager.cpp.obj
 
-src/core/main.i: src/core/main.cpp.i
-.PHONY : src/core/main.i
+src/core/system/window/window_manager.i: src/core/system/window/window_manager.cpp.i
+.PHONY : src/core/system/window/window_manager.i
 
 # target to preprocess a source file
-src/core/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/main.cpp.i
-.PHONY : src/core/main.cpp.i
+src/core/system/window/window_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/window/window_manager.cpp.i
+.PHONY : src/core/system/window/window_manager.cpp.i
 
-src/core/main.s: src/core/main.cpp.s
-.PHONY : src/core/main.s
+src/core/system/window/window_manager.s: src/core/system/window/window_manager.cpp.s
+.PHONY : src/core/system/window/window_manager.s
 
 # target to generate assembly for a file
-src/core/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/main.cpp.s
-.PHONY : src/core/main.cpp.s
+src/core/system/window/window_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/system/window/window_manager.cpp.s
+.PHONY : src/core/system/window/window_manager.cpp.s
 
-src/core/ui/ui.obj: src/core/ui/ui.cpp.obj
-.PHONY : src/core/ui/ui.obj
+src/entities/enemy/enemy.obj: src/entities/enemy/enemy.cpp.obj
+.PHONY : src/entities/enemy/enemy.obj
 
 # target to build an object file
-src/core/ui/ui.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/ui/ui.cpp.obj
-.PHONY : src/core/ui/ui.cpp.obj
+src/entities/enemy/enemy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/enemy/enemy.cpp.obj
+.PHONY : src/entities/enemy/enemy.cpp.obj
 
-src/core/ui/ui.i: src/core/ui/ui.cpp.i
-.PHONY : src/core/ui/ui.i
+src/entities/enemy/enemy.i: src/entities/enemy/enemy.cpp.i
+.PHONY : src/entities/enemy/enemy.i
 
 # target to preprocess a source file
-src/core/ui/ui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/ui/ui.cpp.i
-.PHONY : src/core/ui/ui.cpp.i
+src/entities/enemy/enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/enemy/enemy.cpp.i
+.PHONY : src/entities/enemy/enemy.cpp.i
 
-src/core/ui/ui.s: src/core/ui/ui.cpp.s
-.PHONY : src/core/ui/ui.s
+src/entities/enemy/enemy.s: src/entities/enemy/enemy.cpp.s
+.PHONY : src/entities/enemy/enemy.s
 
 # target to generate assembly for a file
-src/core/ui/ui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/core/ui/ui.cpp.s
-.PHONY : src/core/ui/ui.cpp.s
+src/entities/enemy/enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/enemy/enemy.cpp.s
+.PHONY : src/entities/enemy/enemy.cpp.s
+
+src/entities/player/player.obj: src/entities/player/player.cpp.obj
+.PHONY : src/entities/player/player.obj
+
+# target to build an object file
+src/entities/player/player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/player/player.cpp.obj
+.PHONY : src/entities/player/player.cpp.obj
+
+src/entities/player/player.i: src/entities/player/player.cpp.i
+.PHONY : src/entities/player/player.i
+
+# target to preprocess a source file
+src/entities/player/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/player/player.cpp.i
+.PHONY : src/entities/player/player.cpp.i
+
+src/entities/player/player.s: src/entities/player/player.cpp.s
+.PHONY : src/entities/player/player.s
+
+# target to generate assembly for a file
+src/entities/player/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/player/player.cpp.s
+.PHONY : src/entities/player/player.cpp.s
+
+src/entities/projectiles/projectile.obj: src/entities/projectiles/projectile.cpp.obj
+.PHONY : src/entities/projectiles/projectile.obj
+
+# target to build an object file
+src/entities/projectiles/projectile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/projectiles/projectile.cpp.obj
+.PHONY : src/entities/projectiles/projectile.cpp.obj
+
+src/entities/projectiles/projectile.i: src/entities/projectiles/projectile.cpp.i
+.PHONY : src/entities/projectiles/projectile.i
+
+# target to preprocess a source file
+src/entities/projectiles/projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/projectiles/projectile.cpp.i
+.PHONY : src/entities/projectiles/projectile.cpp.i
+
+src/entities/projectiles/projectile.s: src/entities/projectiles/projectile.cpp.s
+.PHONY : src/entities/projectiles/projectile.s
+
+# target to generate assembly for a file
+src/entities/projectiles/projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/entities/projectiles/projectile.cpp.s
+.PHONY : src/entities/projectiles/projectile.cpp.s
+
+src/environment/environment.obj: src/environment/environment.cpp.obj
+.PHONY : src/environment/environment.obj
+
+# target to build an object file
+src/environment/environment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/environment.cpp.obj
+.PHONY : src/environment/environment.cpp.obj
+
+src/environment/environment.i: src/environment/environment.cpp.i
+.PHONY : src/environment/environment.i
+
+# target to preprocess a source file
+src/environment/environment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/environment.cpp.i
+.PHONY : src/environment/environment.cpp.i
+
+src/environment/environment.s: src/environment/environment.cpp.s
+.PHONY : src/environment/environment.s
+
+# target to generate assembly for a file
+src/environment/environment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/environment.cpp.s
+.PHONY : src/environment/environment.cpp.s
+
+src/environment/planet.obj: src/environment/planet.cpp.obj
+.PHONY : src/environment/planet.obj
+
+# target to build an object file
+src/environment/planet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/planet.cpp.obj
+.PHONY : src/environment/planet.cpp.obj
+
+src/environment/planet.i: src/environment/planet.cpp.i
+.PHONY : src/environment/planet.i
+
+# target to preprocess a source file
+src/environment/planet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/planet.cpp.i
+.PHONY : src/environment/planet.cpp.i
+
+src/environment/planet.s: src/environment/planet.cpp.s
+.PHONY : src/environment/planet.s
+
+# target to generate assembly for a file
+src/environment/planet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/planet.cpp.s
+.PHONY : src/environment/planet.cpp.s
+
+src/environment/stars.obj: src/environment/stars.cpp.obj
+.PHONY : src/environment/stars.obj
+
+# target to build an object file
+src/environment/stars.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/stars.cpp.obj
+.PHONY : src/environment/stars.cpp.obj
+
+src/environment/stars.i: src/environment/stars.cpp.i
+.PHONY : src/environment/stars.i
+
+# target to preprocess a source file
+src/environment/stars.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/stars.cpp.i
+.PHONY : src/environment/stars.cpp.i
+
+src/environment/stars.s: src/environment/stars.cpp.s
+.PHONY : src/environment/stars.s
+
+# target to generate assembly for a file
+src/environment/stars.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/environment/stars.cpp.s
+.PHONY : src/environment/stars.cpp.s
+
+src/game/game.obj: src/game/game.cpp.obj
+.PHONY : src/game/game.obj
+
+# target to build an object file
+src/game/game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/game/game.cpp.obj
+.PHONY : src/game/game.cpp.obj
+
+src/game/game.i: src/game/game.cpp.i
+.PHONY : src/game/game.i
+
+# target to preprocess a source file
+src/game/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/game/game.cpp.i
+.PHONY : src/game/game.cpp.i
+
+src/game/game.s: src/game/game.cpp.s
+.PHONY : src/game/game.s
+
+# target to generate assembly for a file
+src/game/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/game/game.cpp.s
+.PHONY : src/game/game.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/ui/ui.obj: src/ui/ui.cpp.obj
+.PHONY : src/ui/ui.obj
+
+# target to build an object file
+src/ui/ui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/ui/ui.cpp.obj
+.PHONY : src/ui/ui.cpp.obj
+
+src/ui/ui.i: src/ui/ui.cpp.i
+.PHONY : src/ui/ui.i
+
+# target to preprocess a source file
+src/ui/ui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/ui/ui.cpp.i
+.PHONY : src/ui/ui.cpp.i
+
+src/ui/ui.s: src/ui/ui.cpp.s
+.PHONY : src/ui/ui.s
+
+# target to generate assembly for a file
+src/ui/ui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\void-shooter.dir\build.make CMakeFiles/void-shooter.dir/src/ui/ui.cpp.s
+.PHONY : src/ui/ui.cpp.s
 
 # Help Target
 help:
@@ -265,21 +441,43 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... void-shooter
-	@echo ... src/core/entities/enemy/enemy.obj
-	@echo ... src/core/entities/enemy/enemy.i
-	@echo ... src/core/entities/enemy/enemy.s
-	@echo ... src/core/entities/player/player.obj
-	@echo ... src/core/entities/player/player.i
-	@echo ... src/core/entities/player/player.s
-	@echo ... src/core/environment/stars.obj
-	@echo ... src/core/environment/stars.i
-	@echo ... src/core/environment/stars.s
-	@echo ... src/core/main.obj
-	@echo ... src/core/main.i
-	@echo ... src/core/main.s
-	@echo ... src/core/ui/ui.obj
-	@echo ... src/core/ui/ui.i
-	@echo ... src/core/ui/ui.s
+	@echo ... resources.obj
+	@echo ... src/core/system/audio/audio_manager.obj
+	@echo ... src/core/system/audio/audio_manager.i
+	@echo ... src/core/system/audio/audio_manager.s
+	@echo ... src/core/system/resource/resource_manager.obj
+	@echo ... src/core/system/resource/resource_manager.i
+	@echo ... src/core/system/resource/resource_manager.s
+	@echo ... src/core/system/window/window_manager.obj
+	@echo ... src/core/system/window/window_manager.i
+	@echo ... src/core/system/window/window_manager.s
+	@echo ... src/entities/enemy/enemy.obj
+	@echo ... src/entities/enemy/enemy.i
+	@echo ... src/entities/enemy/enemy.s
+	@echo ... src/entities/player/player.obj
+	@echo ... src/entities/player/player.i
+	@echo ... src/entities/player/player.s
+	@echo ... src/entities/projectiles/projectile.obj
+	@echo ... src/entities/projectiles/projectile.i
+	@echo ... src/entities/projectiles/projectile.s
+	@echo ... src/environment/environment.obj
+	@echo ... src/environment/environment.i
+	@echo ... src/environment/environment.s
+	@echo ... src/environment/planet.obj
+	@echo ... src/environment/planet.i
+	@echo ... src/environment/planet.s
+	@echo ... src/environment/stars.obj
+	@echo ... src/environment/stars.i
+	@echo ... src/environment/stars.s
+	@echo ... src/game/game.obj
+	@echo ... src/game/game.i
+	@echo ... src/game/game.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/ui/ui.obj
+	@echo ... src/ui/ui.i
+	@echo ... src/ui/ui.s
 .PHONY : help
 
 

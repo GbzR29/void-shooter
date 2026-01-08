@@ -28,18 +28,22 @@ set(SFML_DIR "${SFML_ROOT}/lib/cmake/SFML")
 # locate the SFML
 find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System Audio Network)
 
-# executable
+# add the .rc file only if it already exists to avoid errors.
+if(WIN32 AND EXISTS "${CMAKE_SOURCE_DIR}/resources.rc")
+    set(RES_FILE "resources.rc")
+endif()
+
 file(GLOB_RECURSE SRC_FILES src/*.cpp)
-add_executable(void-shooter ${SRC_FILES})
 
-target_compile_features(void-shooter PRIVATE cxx_std_23)
-set(CMAKE_CXX_EXTENSIONS OFF)
+# executable
+add_executable(void-shooter ${SRC_FILES} ${RES_FILE})
 
-get_property(CXX_STANDARD TARGET void-shooter PROPERTY CXX_STANDARD)
-message(STATUS "C++ standard used by void-shooter = C++${CXX_STANDARD}")
+# checks if the folder exists before trying to include it
+if(EXISTS "${CMAKE_SOURCE_DIR}/include")
+    target_include_directories(void-shooter PRIVATE "${CMAKE_SOURCE_DIR}/include")
+endif()
 
-
-target_include_directories(void-shooter PRIVATE ${CMAKE_SOURCE_DIR}/include)
+target_include_directories(void-shooter PRIVATE "${CMAKE_SOURCE_DIR}/src")
 
 # linking
 target_link_libraries(void-shooter PRIVATE

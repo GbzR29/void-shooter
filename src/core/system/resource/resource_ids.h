@@ -8,7 +8,8 @@ enum class TextureID {
     Explosion,
     HealthBar,
     EnergyBar,
-    Planet
+    Planet,
+    Icon
 };
 
 enum class FontID {

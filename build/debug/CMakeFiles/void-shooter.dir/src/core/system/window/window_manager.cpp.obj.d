@@ -304,4 +304,5 @@ CMakeFiles/void-shooter.dir/src/core/system/window/window_manager.cpp.obj: \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/FileInputStream.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/InputStream.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/MemoryInputStream.hpp \
- C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Sleep.hpp
+ C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/System/Sleep.hpp \
+ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/assets/icon/icon.h

@@ -10,9 +10,11 @@ public:
 
     sf::RenderWindow& window();
 
-    // Getters
+    // getters
     sf::RenderWindow& getRenderWindow() { return renderWindow; }
     bool isOpen() const { return renderWindow.isOpen(); }
+
+    void setIcon();
 
 
 private:
