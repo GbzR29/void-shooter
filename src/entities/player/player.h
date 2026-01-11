@@ -36,9 +36,11 @@ class Player : public Entity {
         /** @brief The main ship sprite. */
         sf::Sprite player_sprite;
         /** @brief Constant speed of movement in pixels per second. */
-        const float player_speed = 300.f;
+        const float player_speed = 400.f;
         /** @brief Current health points of the player. */
         int player_hp = 10;
+        /** @brief A vector2 to store the player's position */
+        sf::Vector2f position;
 
         // --- Shooting System (Object Pool) ---
         /** @brief Collection of pre-allocated projectiles to avoid runtime allocations. */
@@ -90,6 +92,12 @@ class Player : public Entity {
          * @param dt Delta time.
          */
         void shoot(float dt);
+
+        // Retorna uma referência para o vetor de projéteis
+        std::vector<Projectile>& getAmmunition() { return ammunition; }
+        
+        // Versão 'const' para quando você só precisar ler os dados sem alterar
+        const std::vector<Projectile>& getAmmunition() const { return ammunition; }
 
         /**
          * @brief Handles discrete engine events (like one-tap key presses).

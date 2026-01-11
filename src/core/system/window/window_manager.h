@@ -49,6 +49,13 @@ public:
      */
     bool isOpen() const;
 
+    /**
+     * @brief Get the current window size in pixels.
+     *
+     * @return An unsigned vector with the height and width in pixels of the window.
+     */
+    sf::Vector2u getSize();
+
 private:
     /**
      * @brief Sets the window icon from embedded resources.

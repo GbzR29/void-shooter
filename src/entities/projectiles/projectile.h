@@ -22,6 +22,9 @@ class Projectile : public Entity {
         /** @brief The projectile's visual sprite. */
         sf::Sprite projectile_sprite;
 
+        /** @brief Pointer to store the address of the entity that the projectile collided with. */
+        Entity* collided_entity;
+
     public:
         /**
          * @brief Constructs a projectile and sets its texture.
@@ -53,4 +56,12 @@ class Projectile : public Entity {
          * @param window The SFML RenderWindow.
          */
         void draw(sf::RenderWindow& window) const override;
+
+        /**
+         * @brief Check if the projectile collided with any entity.
+         * @param entity It receives a reference to an entity and stores its attributes.
+         */
+        void onCollision(Entity& entity);
+
+        
 };

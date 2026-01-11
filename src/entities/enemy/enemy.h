@@ -39,18 +39,22 @@ class Enemy : public Entity {
          */
         void shoot(float dt);
 
+        void takeDamage(int amount) override;
+
+        void set_enemyPosition(sf::Vector2f pos);
+
     private:    
+
+        int health = 100;
+
         /** @brief Pointer to the global game context. */
         GameContext* ctx;
 
         /** @brief The visual representation of the enemy. */
         sf::Sprite enemy_sprite;
 
-        /** @brief Base X coordinate (center of movement). */
-        float enemy_x_position;
-
-        /** @brief Base Y coordinate (center of movement). */
-        float enemy_y_position;
+        /** @brief a vector2 to store the enemy's position */
+        sf::Vector2f position;
 
         /** @brief Radius of the circular movement. */
         float amplitude;

@@ -9,13 +9,16 @@
 Enemy::Enemy(GameContext& ctx) : enemy_sprite(ctx.resources->getTexture(TextureID::Enemy)){
     this->ctx = &ctx; 
 
-    enemy_x_position = 400.f - 25.f; // Centering logic
-    enemy_y_position = 100;
-    amplitude = 50.0f;
+    position = {(400.f - 25.f), 100.f};
+
+    amplitude = 85.0f;
     enemy_anim_time = 0;
 
-    enemy_sprite.setScale({3, 3});
-    enemy_sprite.setPosition({enemy_x_position, enemy_y_position});
+    enemy_sprite.setScale({4, 4});
+
+    enemy_sprite.setPosition(position);
+
+    collision_box = enemy_sprite.getGlobalBounds();
 }
 
 /**
@@ -35,14 +38,17 @@ void Enemy::update(float dt){
     float offsetY = std::sin(enemy_anim_time * 2.f) * amplitude;
 
     // Apply the offset to the base position
-    enemy_sprite.setPosition({
-        enemy_x_position + offsetX,
-        enemy_y_position + offsetY
-    });
+    enemy_sprite.setPosition({position.x + offsetX, position.y + offsetY});
+    
 }
 
 void Enemy::draw(sf::RenderWindow &window) const{
     window.draw(enemy_sprite);
+}
+
+
+void Enemy::set_enemyPosition(sf::Vector2f pos){
+    position = pos;
 }
 
 /**
@@ -50,4 +56,11 @@ void Enemy::draw(sf::RenderWindow &window) const{
  */
 void shoot(float dt){
     // Placeholder for shooting logic
+}
+
+void Enemy::takeDamage(int amount){
+    health -= amount;
+    if (health <= 0) {
+        kill(); // Define alive = false
+    }
 }

@@ -13,6 +13,30 @@ void Game::run() {
 
     sf::Clock clock;
 
+    enemies.reserve(10);
+
+    for (int i = 0; i < 10; i++)
+    {
+        enemies.emplace_back(ctx);
+    }
+
+    enemies.at(1).set_enemyPosition({500, 100});
+
+    for (auto& proj : player.getAmmunition()) {
+        if (!proj.isActive()) continue;
+
+    // ...verifique contra cada inimigo
+    for (auto& e : enemies) {
+        if (!e.isAlive()) continue;
+
+        // Checa interseção de FloatRect
+        if (proj.collision_box.findIntersection(e.collision_box)) {
+            proj.onCollision(e); // O projétil "avisa" que colidiu com essa entidade
+            break; // Para de checar este projétil por este frame
+        }
+    }
+}
+
     /**
      * Main Game Loop
      * @see https://www.sfml-dev.org/tutorials/3.0/window/events/
@@ -36,7 +60,8 @@ void Game::run() {
         stars.update(dt);
         planet.update(dt);
         player.update(dt);
-        enemy.update(dt);
+        enemies.at(0).update(dt);
+        enemies.at(1).update(dt);
         // ctx.audio->update(dtTime); // Future implementation for audio maintenance
 
         // 3. Draw Phase: Rendering all layers
@@ -45,11 +70,14 @@ void Game::run() {
         rw.clear(); 
         
         // Rendering order matters (Back to Front)
-        stars.draw(rw);   // Background layer 1
-        planet.draw(rw);  // Background layer 2
-        player.draw(rw);  // Gameplay layer
-        enemy.draw(rw);   // Gameplay layer
-        ui.draw(rw);      // UI/Overlay layer
+        stars.draw(rw);             // Background layer 1
+        planet.draw(rw);            // Background layer 2
+
+        player.draw(rw);            // Gameplay layer
+        enemies.at(0).draw(rw);     // Gameplay layer
+        enemies.at(1).draw(rw);     // Gameplay layer
+
+        ui.draw(rw);                // UI/Overlay layer
         
         rw.display();
     }

@@ -26,7 +26,7 @@
 int main() {
     try {
         // 1. Instantiate the window system
-        WindowManager window(1200, 900, "Void Shooter");
+        WindowManager window(1280, 720, "Void Shooter");
         window.setupSettings(120, true, false);
 
         // 2. Instantiate resources (Must exist as long as the game is running)

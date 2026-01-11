@@ -24,14 +24,16 @@ void Projectile::activate(sf::Vector2f startPos, sf::Vector2f vel) {
  * when it moves off-screen (y < -20.f).
  */
 
+// No Projectile.cpp
 void Projectile::update(float dt) {
     if (!active) return;
 
-    // Movement calculation: P = P0 + V * dt
     position += velocity * dt;
     projectile_sprite.setPosition(position);
+    
+    // BOX UPDATE: Gets the global sprite boundaries
+    collision_box = projectile_sprite.getGlobalBounds();
 
-    // Despawn logic: Check if projectile left the top of the screen
     if (position.y < -20.f) {
         active = false;
     }
@@ -40,4 +42,14 @@ void Projectile::update(float dt) {
 void Projectile::draw(sf::RenderWindow& window) const {
     if (!active) return;
     window.draw(projectile_sprite);
+}
+
+void Projectile::onCollision(Entity& entity) {
+    // apply the damage to the entity that was passed on.
+    entity.takeDamage(10); 
+    
+    // deactivate the projectile (it disappears upon impact).
+    this->active = false; 
+    
+    std::cout << "entity suffered damage." << std::endl;
 }

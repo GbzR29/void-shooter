@@ -49,6 +49,16 @@ public:
      */
     void kill() { alive = false; }  
 
+    /**
+     * @brief It modifies the entity's attributes when it takes damage.
+     */
+    virtual void takeDamage(int amount) {}
+
+    /**
+     * @brief Defines a collision box for the entity.
+     */
+    sf::FloatRect collision_box;
+
 protected:
     /** @brief Flag indicating the entity's status. */
     bool alive = true;

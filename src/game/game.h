@@ -7,6 +7,8 @@
 #include "../environment/planet.h"
 #include "../ui/ui.h"
 
+#include <vector>
+
 /**
  * @class Game
  * @brief The main controller class that manages the core game loop and systems coordination.
@@ -37,6 +39,7 @@ private:
 
     /** @brief Main enemy controller/instance. */
     Enemy enemy;
+    std::vector<Enemy> enemies;
 
     /** @brief Background starfield system for parallax effects. */
     Stars stars;

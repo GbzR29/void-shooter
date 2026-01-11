@@ -38,3 +38,7 @@ void WindowManager::update() {
         }
     }
 }
+
+sf::Vector2u WindowManager::getSize(){
+    return renderWindow.getSize();
+}

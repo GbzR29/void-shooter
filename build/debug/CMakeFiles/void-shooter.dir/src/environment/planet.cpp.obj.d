@@ -334,4 +334,5 @@ CMakeFiles/void-shooter.dir/src/environment/planet.cpp.obj: \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundRecorder.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundFileFactory.hpp \
  C:/Users/gabri/DOCUME~1/MEGA/PROGRA~1/GITHUB~1/VOID-S~1/external/SFML-D~1/include/SFML/Audio/SoundFileFactory.inl \
- C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/window/window_manager.h
+ C:/Users/gabri/Documents/MEGA/Programming/Github\ projects/void-shooter/src/core/system/window/window_manager.h \
+ C:/mingw64/include/c++/14.2.0/iostream
