@@ -25,14 +25,14 @@ void Game::run() {
     for (auto& proj : player.getAmmunition()) {
         if (!proj.isActive()) continue;
 
-    // ...verifique contra cada inimigo
+    // Check against each enemy
     for (auto& e : enemies) {
         if (!e.isAlive()) continue;
 
-        // Checa interseção de FloatRect
+        // Check the intersection of FloatRect
         if (proj.collision_box.findIntersection(e.collision_box)) {
             proj.onCollision(e); // O projétil "avisa" que colidiu com essa entidade
-            break; // Para de checar este projétil por este frame
+            break; // Stop checking this projectile for this frame.
         }
     }
 }
